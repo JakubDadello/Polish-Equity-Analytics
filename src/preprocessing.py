@@ -1,39 +1,40 @@
-import numpy as np 
-import pandas as pd 
+import numpy as np
+import pandas as pd
 from sklearn.impute import SimpleImputer
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
-
-# all_data object contains all variables (input features X and output target Y)
+# --- Load dataset ---
+# all_data contains both input features (X) and target labels (Y)
 all_data = pd.read_csv("../data/initial_labeling_data.csv")
 
-# X contains all input features 
-X = all_data.iloc[:, 2:-1]
+# --- Split features and target ---
+X = all_data.iloc[:, 2:-1]  # input features
+Y = all_data.iloc[:, -1:]   # target labels
 
-# Y contains all output features 
-Y = all_data.iloc[:, -1:]
+# --- Define numerical and categorical columns ---
+numeric_features = ['net_income', 'net_cash_flow', 'roe', 'roa', 'ebitda', 'cumulation']
+categorical_features = ['sector']
 
-# split dataset X into numerical and categorical features
-numeric_data = ['net_income', 'net_cash_flow', 'roe', 'roa', 'ebitda', 'cumulation'] 
-categorical_data = ['sector']
-
-# numerical data preprocessing: missing value imputation and standardization
+# --- Numerical preprocessing ---
+# 1. Impute missing values with median
+# 2. Standardize features to zero mean and unit variance
 numeric_transformer = Pipeline(steps=[
     ('imputer', SimpleImputer(strategy='median')),
     ('scaler', StandardScaler())
 ])
 
-# categorical data preprocessing: missing value imputation and OneHotEncoding
+# --- Categorical preprocessing ---
+# 1. Impute missing values with the most frequent category
+# 2. Apply One-Hot Encoding (ignore unknown categories in test set)
 categorical_transformer = Pipeline(steps=[
     ('imputer', SimpleImputer(strategy='most_frequent')),
     ('encoder', OneHotEncoder(handle_unknown='ignore'))
 ])
 
-
-#definition of an object performing comprehensive preprocessing transformations
+# --- Combine numerical and categorical preprocessing ---
 preprocessor = ColumnTransformer(transformers=[
-    ('num', numeric_transformer, numeric_data),
-    ('cat', categorical_transformer, categorical_data)
+    ('num', numeric_transformer, numeric_features),
+    ('cat', categorical_transformer, categorical_features)
 ])
