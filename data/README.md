@@ -48,4 +48,4 @@ This folder contains all the datasets used in the project.
 
 ## Dashboard Overview 
 
-![Dashboard_data](dashboards/Dashboard_data.jpg)
+![Dashboard_data](../dashboards/Dashboard_data.jpg)
