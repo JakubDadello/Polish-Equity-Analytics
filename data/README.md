@@ -44,5 +44,8 @@ This folder contains all the datasets used in the project.
 - **Target:** Includes the investment level label (`low`, `medium`, `high`) from `initial_labeling_data.csv`  
 - **Usage:** Ready for modeling in Python or other ML frameworks
 
-## Dashboard Overview (Power BI) 
+---
 
+## Dashboard Overview 
+
+![Dashboard_data](../dashboards/Dashboard_data.jpg)
