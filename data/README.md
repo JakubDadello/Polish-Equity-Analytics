@@ -7,15 +7,15 @@ This folder contains all the datasets used in the project.
 ## 1. raw_data.csv
 - **Description:** Financial data for 370 Polish listed companies from the Warsaw Stock Exchange (GPW)
 - **Source:** Official GPW website
-- **Date collected:** 19 Dec 2025
+- **Date collected:** 10 Nov 2025
 - **Columns:**
-  - `net_income`: Net profit in PLN
-  - `net_cash_flow`: Net cash flow in PLN
-  - `roe`: Return on equity
+  - `net_income`: Net profit in thousands of PLN
+  - `net_cash_flow`: Net cash flow in thousands of PLN
+  - `roe`: Return on equity 
   - `roa`: Return on assets
-  - `ebitda`: EBITDA in PLN
+  - `ebitda`: EBITDA in thousands of PLN (kPLN)
   - `sector`: Industry sector
-  - `cumulation`: Reporting type (quarterly, semi-annual, or three-quarter reports)
+  - `cumulation`: Reporting type (quarterly, semi-annual)
 
 ---
 
@@ -43,4 +43,6 @@ This folder contains all the datasets used in the project.
 - **Features:** Contains all input features after preprocessing (numerical scaled + categorical one-hot encoded)  
 - **Target:** Includes the investment level label (`low`, `medium`, `high`) from `initial_labeling_data.csv`  
 - **Usage:** Ready for modeling in Python or other ML frameworks
+
+## Dashboard Overview (Power BI) 
 
