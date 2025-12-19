@@ -1,5 +1,5 @@
-# Description: The analysis of a company's financial data, taking into account the characteristics of its sector, is among the key factors considered in investment-related decision-making processes.
+## Project Description
 
-# Purpose: The purpose of this project was to develop an efficient classification model capable of accurately categorizing the investment assessment of companies based on the mentioned determinants.
+This project analyzes the financial data of 370 Polish listed companies (GPW), taking into account sector-specific characteristics, to support investment decision-making. 
 
-#link to the presentation: https://www.canva.com/design/DAG17_xJvXI/1DNdBlbVTqxPsAkPdYHFeg/view
+The goal is to build a robust classification model that accurately predicts each company's investment level (low, medium, or high) based on key financial indicators.
