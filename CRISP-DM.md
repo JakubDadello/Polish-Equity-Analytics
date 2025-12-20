@@ -178,6 +178,23 @@ Its success in solving the classification problem is likely due to its structure
 2. Other metrics also declined noticeably after switching from the Adam optimizer to SGD.
 Overall, the multilayer perceptron (MLP) neural network developed for this project showed performance comparable to Logistic Regression and SVM, despite having  significantly more complex internal architecture and operational characteristics.
 
+## Next Steps for Final Model (Random Forest) 
+
+Currently, the Random Forest algorithm demonstrates the highest performance, pointing the way for further development and optimization of the analytical model.
+
+
+### Confusion matrix for the optimal cycle  
+
+| y_test \ y_pred         | low | middle | high |
+|-------------------------|-----|--------|------|
+| **low**                 | 22  | 4      | 1    |
+| **middle**              | 3   | 12     | 4    |
+| **high**                | 1   | 3      | 24   |
+
+
+Analysis of the confusion matrix suggests that the model is currently moderately stable and suitable for preliminary classification. Nevertheless, its ability to accurately predict companies with medium investment attractiveness is limited, indicating a preference for the extreme classes (high and low investment ratings).
+
+
 ---
 
 # Deployment 
@@ -192,9 +209,7 @@ It requires a number of further actions, primarily related to:
 
 The project aimed to create a classification system that automatically evaluates a company’s investment attractiveness. This objective was largely met.
 The evaluation method involved first grouping companies based on the temporal aspect of their financial statements and then by sector membership. Deterministic class assignment was based on a fundamental statistical measure of central tendency—the median of the relevant financial indicators.
-Currently, the Random Forest algorithm demonstrates the highest performance, pointing the way for further development and optimization of the analytical model.
 
-
-
-Analysis of the confusion matrix suggests that the model is currently moderately stable and suitable for preliminary classification. Nevertheless, its ability to accurately predict companies with medium investment attractiveness is limited, indicating a preference for the extreme classes (high and low investment ratings).
 For further development of the Random Forest model, the key areas for optimization include hyperparameter tuning, feature engineering, and rebalancing of class distributions.
+
+
