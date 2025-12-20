@@ -114,10 +114,11 @@ The previously mentioned evaluation process for each of the four models involved
 Each model was accompanied by an Excel table containing the metric values for every cycle.
 The evaluation process was further enhanced with a confusion matrix.
 
-| Kolumna 1 | Kolumna 2 | Kolumna 3 |
+| Logistic Regression |
+|-----------------------------------|
+| accuracy | precision | recall |
 |----------|-----------|-----------|
-| Wartość A | Wartość B | Wartość C |
-| Wartość D | Wartość E | Wartość F |
+| 0.4594594594594595 | 0.44078947368421| 0.434813886568272 |
 
 
 Logistic Regression results:
