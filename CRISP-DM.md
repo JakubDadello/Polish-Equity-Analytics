@@ -124,20 +124,23 @@ The evaluation process was further enhanced with a confusion matrix.
 |4| 0.459459459459459  | 0.443392255892255 | 0.438248398774714 |
 |5| 0.459459459459459  | 0.443392255892255 | 0.438248398774714 |
 |6| 0.5 | 0.4725 | 0.462336396546922 |
-
-
-
-
-
-
-Logistic Regression results:
 1. Accuracy ranged from 46% to 50%, indicating that the model correctly classified about half of the cases.
 2. Precision remained relatively stable at approximately 45%.
 3. Recall was within a narrow range of 43–46%.
 In the last (sixth) cycle, all metrics reached their highest values, yet none exceeded 50%.
 Overall, the Logistic Regression model did not achieve satisfactory performance, mainly due to the lack of linear separability between the features and the probabilistic logits.
 
-SVM results:
+
+### SVM  
+
+|number| accuracy | precision | recall |
+| -----|----------|-----------|-----------|
+|1| 0.432432432432432 | 0.394878048780487 | 0.399726167270026 |
+|2| 0.432432432432432 | 0.394878048780487 | 0.399726167270026 |
+|3| 0.432432432432432 | 0.398051948051948 | 0.403601596584052 |
+|4| 0.418918918918918 | 0.400919540229885 | 0.397335932423651 |
+|5| 0.445945945945945 | 0.57089947089947  | 0.421238280887403 |
+|6| 0.445945945945945 | 0.491282851938589 | 0.415599183143042 |
 1. Accuracy hovered around 43%, showing no significant fluctuations.
 2. Precision increased by almost 20 percentage points in the fifth cycle, reaching 57%, and then dropped to around 50% in the final trial.
 3. Recall remained within a narrow range, oscillating at approximately 40%.
