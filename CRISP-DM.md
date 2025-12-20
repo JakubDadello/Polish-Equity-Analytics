@@ -184,10 +184,8 @@ Currently, the Random Forest algorithm demonstrates the highest performance, poi
 
 
 ### Confusion matrix for the optimal cycle  
+| Rzeczywiste \ Predykcja | low | middle | high | |-------------------------|---------|---------|---------| | **low** | 22 | 4 | 1 | | **middle** | 3 | 12 | 4 | | **high** | 1 | 3 | 24 |
 
-| 22 | 4  | 1  |
-| 3  | 12 | 4  |
-| 1  | 3  | 24 |
 
 Analysis of the confusion matrix suggests that the model is currently moderately stable and suitable for preliminary classification. Nevertheless, its ability to accurately predict companies with medium investment attractiveness is limited, indicating a preference for the extreme classes (high and low investment ratings).
 
