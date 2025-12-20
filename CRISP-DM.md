@@ -195,6 +195,8 @@ Currently, the Random Forest algorithm demonstrates the highest performance, poi
 Analysis of the confusion matrix suggests that the model is currently moderately stable and suitable for preliminary classification. Nevertheless, its ability to accurately predict companies with medium investment attractiveness is limited, indicating a preference for the extreme classes (high and low investment ratings).
 
 
+![Feature_importance](../reports/feature_importance.png)
+
 ---
 
 # Deployment 
