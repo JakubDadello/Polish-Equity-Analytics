@@ -174,8 +174,8 @@ Its success in solving the classification problem is likely due to its structure
 |4| 0.364864864864864   | 0.123287671232876 | 0.333333333333333 |
 |5| 0.432432432432432   | 0.392857142857142 | 0.413208948296667 |
 |6| 0.47297297297297297 | 0.564208909370199 | 0.43984962406015  |
-Accuracy remained relatively stable, with the exception of the fourth cycle, when changing the optimizer caused it to drop to around 36%.
-Other metrics also declined noticeably after switching from the Adam optimizer to SGD.
+1. Accuracy remained relatively stable, with the exception of the fourth cycle, when changing the optimizer caused it to drop to around 36%.
+2. Other metrics also declined noticeably after switching from the Adam optimizer to SGD.
 Overall, the multilayer perceptron (MLP) neural network developed for this project showed performance comparable to Logistic Regression and SVM, despite having  significantly more complex internal architecture and operational characteristics.
 
 ---
