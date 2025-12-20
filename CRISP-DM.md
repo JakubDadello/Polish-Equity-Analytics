@@ -147,14 +147,33 @@ Overall, the Logistic Regression model did not achieve satisfactory performance,
 In general, the SVM model performed slightly worse than the previously tested Logistic Regression model in solving this business problem. It should be noted that, besides the linear variant (LinearSVC), nonlinear kernels (polynomial and Gaussian) were also tested.
 The limited effectiveness of SVM was likely due to features lacking proper scaling. Differences in magnitude—such as net profit in millions versus profitability ratios in percentages—significantly influenced the creation of the decision hyperplane and, consequently, the classification quality.
 
-Random Forest results:
+
+### Random Forest 
+
+|number| accuracy | precision | recall |
+| -----|----------|-----------|-----------|
+|1| 0.81081081081081  | 0.801864801864801 | 0.802933259073609 |
+|2| 0.797297297297297 | 0.78019121878771  | 0.78019121878771  |
+|3| 0.77027027027027  | 0.759530592863926 | 0.761138958507379 |
+|4| 0.77027027027027  | 0.756381694978186 | 0.755940777870602 |
+|5| 0.756756756756756 | 0.738396918221479 | 0.738396918221479 |
+|6| 0.783783783783783 | 0.773492063492063 | 0.773925554627309 |
 1. Accuracy ranged between 75% and 80%.
 2. Precision remained in a similar range, dropping below 75% only in the fifth cycle.
 3. Recall behaved similarly to precision throughout the testing process, with comparable values in each cycle.
 Random Forest clearly outperformed all other tested machine learning models.
 Its success in solving the classification problem is likely due to its structure. By hierarchically dividing the multidimensional feature space into smaller decision trees, the model can capture nonlinear and complex feature interactions.
 
-Neural Network results:
+### Neural Network 
+
+|number| accuracy | precision | recall |
+| -----|----------|-----------|-----------|
+|1| 0.418918918918918   | 0.517934446505875 | 0.462359602710479 |
+|2| 0.432432432432432   | 0.478494623655914 | 0.404135338345864 |
+|3| 0.4864864864864865  | 0.438528138528138 | 0.445674371112967 |
+|4| 0.364864864864864   | 0.123287671232876 | 0.333333333333333 |
+|5| 0.432432432432432   | 0.392857142857142 | 0.413208948296667 |
+|6| 0.47297297297297297 | 0.564208909370199 | 0.43984962406015  |
 Accuracy remained relatively stable, with the exception of the fourth cycle, when changing the optimizer caused it to drop to around 36%.
 Other metrics also declined noticeably after switching from the Adam optimizer to SGD.
 Overall, the multilayer perceptron (MLP) neural network developed for this project showed performance comparable to Logistic Regression and SVM, despite having  significantly more complex internal architecture and operational characteristics.
