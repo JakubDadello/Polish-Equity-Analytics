@@ -199,6 +199,8 @@ Analysis of the confusion matrix suggests that the model is currently moderately
 
 ![Feature_importance](/reports/feature_importance.png)
 
+The Random Forest model indicates that Net profit is the most fluential feature in predicting target. Both ROE and ROA contribute at similar, slightly lower level. EBITDA has moderate importance, while Net cash flow is the least significant among the features.
+
 ---
 
 # Deployment 
