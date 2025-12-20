@@ -1,45 +1,47 @@
 import os
-import joblib
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# --- configuration --- 
-path_model = "/Random_forest.ipnyb"
+from preprocessing import numeric_features, categorical_features
+from final_model import pipeline
+
+# --- output ---
 path_output = "../reports"
-os.makedirs(path_output, exist_ok = True)
+os.makedirs(path_output, exist_ok=True)
 
-# --- numeric and categorical features ---
-numeric_features = ['net_income', 'net_cash_flow', 'roe', 'roa', 'ebitda', 'cumulation']
-categorical_features = ['sector']
-
-# --- loadGridSearchCV ---
-grid_search = joblib.load(path_model)
-
-# --- best pipeline ----
-pipeline = grid_search.best_estimator_
-
+# --- extract model and preprocessor ---
 model_rf = pipeline.named_steps["rf"]
 preprocessor = pipeline.named_steps["preprocessing"]
 
-cat_transformator = preprocessor.named_steps["cat"]
-cat_encoder = cat_transformator.named_steps["encoder"]
-categorical_feature_names = list(cat_encoder.get_feature_names_out(categorical_features))
+# --- feature names ---
+numeric_feature_names = numeric_features
+
+cat_transformer = preprocessor.named_transformers_['cat']
+cat_encoder = cat_transformer.named_steps['encoder']
+categorical_feature_names = list(
+    cat_encoder.get_feature_names_out(categorical_features)
+)
 
 feature_names = numeric_feature_names + categorical_feature_names
 
+# --- feature importance ---
 importances = model_rf.feature_importances_
 
 feature_importances_df = pd.DataFrame({
-    "Features": feature_names,
-    "Importance": importances 
-}).sort_values(by="importances", ascending = False)
+    "Feature": feature_names,
+    "Importance": importances
+}).sort_values(by="Importance", ascending=False)
 
-plt.figure(figsize=(10,8))
-plt_data = feature_importances_df 
-plt.bar(feature_importances_df ["Importances"],feature_importances_df["Features"])
-plt.xlabel("Importances")
-plt.title("Feature Importances")
+# --- plot ---
+plt.figure(figsize=(10, 8))
+top_features = feature_importances_df.head(10)
+
+plt.barh(top_features["Feature"], top_features["Importance"])
+plt.gca().invert_yaxis()
+plt.xlabel("Importance")
+plt.title("Top 10 Feature Importances – Random Forest")
 plt.tight_layout()
+
 path_plot = os.path.join(path_output, "feature_importance.png")
 plt.savefig(path_plot)
 plt.show()
