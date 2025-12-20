@@ -10,7 +10,7 @@ warnings.filterwarnings('ignore', category=ConvergenceWarning)
 
 import numpy as np
 import pandas as pd
-from src.preprocessing import preprocessor, X, Y
+from preprocessing import preprocessor, X, Y
 from sklearn.pipeline import Pipeline
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split, GridSearchCV
@@ -51,3 +51,6 @@ accuracy_values = accuracy_score(y_test, y_pred)
 precision_values = precision_score(y_test, y_pred, average='macro')
 recall_values = recall_score(y_test, y_pred, average='macro')
 confusionmatrix_values = confusion_matrix(y_test, y_pred, labels=['low', 'middle', 'high'])
+
+# --- best pipeline ----
+pipeline = grid_search.best_estimator_
