@@ -6,7 +6,7 @@ The goal is to build a robust classification model that accurately predicts each
 
 ## Repository Structure
 - `data/` - raw and labeled datasets (see `data/README.md`), and SQL scripts 
-- `notebooks/` - preprocessing and modeling notebooks
+- `notebooks/` - Jupyter notebooks for preprocessing and modeling experiments
 - `src/` - Python scripts for preprocessing data and training the final ML model
 - `reports/` – Power BI dashboards and related analytics outputs
 - `CRISP-DM.md` - detailed methodology workflow
