@@ -96,12 +96,6 @@ The source code for each model is contained in a separate file within the notebo
 For building the Logistic Regression, SVM, and Random Forest models, the corresponding tools from the Python library scikit-learn were used. In contrast, the neural network was created using functions from the TensorFlow library, implemented via the specialized deep learning interface Keras.
 The training process involved estimating the model parameters (weights) with the goal of minimizing the loss function. 
 
-Each new training cycle of the model was preceded by adjustments to its hyperparameters for optimization.
-1. For Logistic Regression, the C hyperparameter, which controls the strength of regularization, was modified, and an additional operation was implemented during the Data Preparation phase - dimensionality reduction using Principal Component Analysis (PCA).
-2. The SVM was optimized primarily with respect to the kernel function (linear, polynomial, Gaussian) and the gamma hyperparameter.
-3. In the case of the Random Forest, changes included the number of decision trees and the splitting criterion (Gini, entropy).
-4. For the perceptron-based neural network, the number of layers and neurons was optimized. During the last two cycles, the dropout technique was implemented to reduce the risk of overfitting.
-
 ---
 
 # Evaluation 
@@ -111,88 +105,32 @@ The previously mentioned evaluation process for each of the four models involved
 2. Precision
 3. Recall
 
-Each model was accompanied by an Excel table containing the metric values for every cycle.
-The evaluation process was further enhanced with a confusion matrix.
+The table below presents a comparison of three evaluation metrics for each model, based on their best-performing hyperparameter configurations.
 
-### Logistic Regression 
+### Comparision of evaluation metrics for models (optimal configuration) 
 
-|number| accuracy | precision | recall |
+|model| accuracy | precision | recall |
 | -----|----------|-----------|-----------|
-|1| 0.4594594594594595 | 0.44078947368421  | 0.434813886568272 |
-|2| 0.4594594594594595 | 0.4407894736842   | 0.434813886568272 |
-|3| 0.472972972972972  | 0.457647058823529 | 0.456233175531421 |
-|4| 0.459459459459459  | 0.443392255892255 | 0.438248398774714 |
-|5| 0.459459459459459  | 0.443392255892255 | 0.438248398774714 |
-|6| 0.5 | 0.4725 | 0.462336396546922 |
-1. Accuracy ranged from 46% to 50%, indicating that the model correctly classified about half of the cases.
-2. Precision remained relatively stable at approximately 45%.
-3. Recall was within a narrow range of 43–46%.
-In the last (sixth) cycle, all metrics reached their highest values, yet none exceeded 50%.
-Overall, the Logistic Regression model did not achieve satisfactory performance, mainly due to the lack of linear separability between the features and the probabilistic logits.
+|Logistic Regression| 0.5000 | 0.4594 | 0.4615 |
+|Support Vector Machine| 0.5000 | 0.4498 | 0.4588 |
+|Random Forest| 0.7838 | 0.7679 | 0.7683 |
+|Artificial Neural Network | 0.5000 | 0.5063 | 0.4545 |
 
-
-### SVM  
-
-|number| accuracy | precision | recall |
-| -----|----------|-----------|-----------|
-|1| 0.432432432432432 | 0.394878048780487 | 0.399726167270026 |
-|2| 0.432432432432432 | 0.394878048780487 | 0.399726167270026 |
-|3| 0.432432432432432 | 0.398051948051948 | 0.403601596584052 |
-|4| 0.418918918918918 | 0.400919540229885 | 0.397335932423651 |
-|5| 0.445945945945945 | 0.57089947089947  | 0.421238280887403 |
-|6| 0.445945945945945 | 0.491282851938589 | 0.415599183143042 |
-1. Accuracy hovered around 43%, showing no significant fluctuations.
-2. Precision increased by almost 20 percentage points in the fifth cycle, reaching 57%, and then dropped to around 50% in the final trial.
-3. Recall remained within a narrow range, oscillating at approximately 40%.
-In general, the SVM model performed slightly worse than the previously tested Logistic Regression model in solving this business problem. It should be noted that, besides the linear variant (LinearSVC), nonlinear kernels (polynomial and Gaussian) were also tested.
-The limited effectiveness of SVM was likely due to features lacking proper scaling. Differences in magnitude—such as net profit in millions versus profitability ratios in percentages—significantly influenced the creation of the decision hyperplane and, consequently, the classification quality.
-
-
-### Random Forest 
-
-|number| accuracy | precision | recall |
-| -----|----------|-----------|-----------|
-|1| 0.81081081081081  | 0.801864801864801 | 0.802933259073609 |
-|2| 0.797297297297297 | 0.78019121878771  | 0.78019121878771  |
-|3| 0.77027027027027  | 0.759530592863926 | 0.761138958507379 |
-|4| 0.77027027027027  | 0.756381694978186 | 0.755940777870602 |
-|5| 0.756756756756756 | 0.738396918221479 | 0.738396918221479 |
-|6| 0.783783783783783 | 0.773492063492063 | 0.773925554627309 |
-1. Accuracy ranged between 75% and 80%.
-2. Precision remained in a similar range, dropping below 75% only in the fifth cycle.
-3. Recall behaved similarly to precision throughout the testing process, with comparable values in each cycle.
-Random Forest clearly outperformed all other tested machine learning models.
-Its success in solving the classification problem is likely due to its structure. By hierarchically dividing the multidimensional feature space into smaller decision trees, the model can capture nonlinear and complex feature interactions.
-
-### Neural Network 
-
-|number| accuracy | precision | recall |
-| -----|----------|-----------|-----------|
-|1| 0.418918918918918   | 0.517934446505875 | 0.462359602710479 |
-|2| 0.432432432432432   | 0.478494623655914 | 0.404135338345864 |
-|3| 0.4864864864864865  | 0.438528138528138 | 0.445674371112967 |
-|4| 0.364864864864864   | 0.123287671232876 | 0.333333333333333 |
-|5| 0.432432432432432   | 0.392857142857142 | 0.413208948296667 |
-|6| 0.47297297297297297 | 0.564208909370199 | 0.43984962406015  |
-1. Accuracy remained relatively stable, with the exception of the fourth cycle, when changing the optimizer caused it to drop to around 36%.
-2. Other metrics also declined noticeably after switching from the Adam optimizer to SGD.
-Overall, the multilayer perceptron (MLP) neural network developed for this project showed performance comparable to Logistic Regression and SVM, despite having  significantly more complex internal architecture and operational characteristics.
 
 ## Next Steps for Final Model (Random Forest) 
 
 Currently, the Random Forest algorithm demonstrates the highest performance, pointing the way for further development and optimization of the analytical model.
 
-
-### Confusion matrix for the optimal cycle  
+### Confusion matrix for Random Forest (optimal configuration) 
 
 | y_test \ y_pred         | low | middle | high |
 |-------------------------|-----|--------|------|
-| **low**                 | 22  | 4      | 1    |
+| **low**                 | 23  | 4      | 0    |
 | **middle**              | 3   | 12     | 4    |
-| **high**                | 1   | 3      | 24   |
+| **high**                | 1   | 3      | 23   |
 
 
-Analysis of the confusion matrix suggests that the model is currently moderately stable and suitable for preliminary classification. Nevertheless, its ability to accurately predict companies with medium investment attractiveness is limited, indicating a preference for the extreme classes (high and low investment ratings).
+The model shows high reliability in distinguishing between 'low' and 'high' investment ratings (only 1 case of extreme misclassification). This is crucial for risk management, as it minimizes the chance of recommending high-risk companies as top-tier investments.
 
 
 ### Feature_importances   
