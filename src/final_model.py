@@ -1,7 +1,3 @@
-import sys
-import os
-sys.path.append(os.path.abspath(".."))
-
 # --- hide warnings ---
 import warnings
 from sklearn.exceptions import ConvergenceWarning
