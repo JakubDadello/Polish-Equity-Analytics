@@ -8,8 +8,6 @@ from sklearn.exceptions import ConvergenceWarning
 warnings.filterwarnings('ignore', category=FutureWarning)
 warnings.filterwarnings('ignore', category=ConvergenceWarning)
 
-import numpy as np
-import pandas as pd
 from preprocessing import preprocessor, X, Y
 from sklearn.pipeline import Pipeline
 from sklearn.ensemble import RandomForestClassifier
@@ -24,18 +22,22 @@ X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.20, random
 y_train = y_train.values.ravel()
 y_test  = y_test.values.ravel()
 
+# --- parameters for GridSearchCV ---
+best_params = {
+    "rf__n_estimators": 200,
+    "rf__criterion": "entropy",
+    "rf__max_depth": 10, 
+    "random_state": 42
+}
+
+
 # --- define pipeline with Random Forest ---
 chain = Pipeline([
     ("preprocessing", preprocessor),
-    ("rf", RandomForestClassifier(random_state=42))
+    ("rf", RandomForestClassifier(best_params))
 ])
 
-# --- parameters for GridSearchCV ---
-param_grid = {
-    "rf__n_estimators": [50, 100, 200],
-    "rf__criterion": ["gini", "entropy"],
-    "rf__max_depth": [None, 5, 10]
-}
+
 
 # --- GridSearchCV object ---
 grid_search = GridSearchCV(chain, param_grid, scoring='accuracy', cv=5)
