@@ -11,4 +11,10 @@ The goal is to build a robust classification model that accurately predicts each
 - `reports/` – Power BI dashboards and related analytics outputs
 - `CRISP-DM.md` - detailed methodology workflow
 
+## Tech Stack
+
+- Language: Python 3.x
+- Libraries: Scikit-learn, Pandas, NumPy, Matplotlib, TensorFlow (MLP)
+- Tools: Power BI, SQL (Data Extraction), Canva (Presentation)
+
 For the full CRISP-DM methodology, see [CRISP-DM.md](CRISP-DM.md)
