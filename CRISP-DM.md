@@ -86,7 +86,7 @@ The entire data preparation process was implemented in the file preprocessing.py
 The objective of this project was to create a classification model that assigns an investment rating to each company, reflecting its financial condition and taking into account its sector affiliation.
 
 To achieve this goal, four popular classification models based on machine learning algorithms were used:
-1. Logistic Regression
+1. Logistic Regression, multinomial (multiclass) variant
 2. Support Vector Machine (SVM), specifically the classification variant (SVC)
 3. Random Forest, applied to classification problems
 4. Artificial Neural Network (ANN), precisely a multilayer perceptron classification model (MLP Classifier)

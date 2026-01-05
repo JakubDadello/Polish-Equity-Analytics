@@ -5,10 +5,10 @@ This project analyzes the financial data of 370 Polish listed companies (GPW), t
 The goal is to build a robust classification model that accurately predicts each company's investment level (low, medium, or high) based on key financial indicators.
 
 ## Repository Structure
-- `data/` - raw and labeled datasets (see `data/README.md`)
-- `notebooks/` - preprocessing and modeling notebooks
+- `data/` - raw and labeled datasets (see `data/README.md`), and SQL scripts 
+- `notebooks/` - Jupyter notebooks for preprocessing and modeling experiments
 - `src/` - Python scripts for preprocessing data and training the final ML model
-- `dashboards/` - Power BI dashboards
+- `reports/` – Power BI dashboards and related analytics outputs
 - `CRISP-DM.md` - detailed methodology workflow
 
 For the full CRISP-DM methodology, see [CRISP-DM.md](CRISP-DM.md)
