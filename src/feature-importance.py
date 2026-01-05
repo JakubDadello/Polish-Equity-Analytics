@@ -9,28 +9,17 @@ from final_model import pipeline
 path_output = "../reports"
 os.makedirs(path_output, exist_ok=True)
 
-# --- extract model and preprocessor ---
-model_rf = pipeline.named_steps["rf"]
-preprocessor = pipeline.named_steps["preprocessing"]
-
 # --- feature names ---
-numeric_feature_names = numeric_features
+feature_names = pipeline.named_steps["preprocessing"].get_feature_names_out()
 
-cat_transformer = preprocessor.named_transformers_['cat']
-cat_encoder = cat_transformer.named_steps['encoder']
-categorical_feature_names = list(
-    cat_encoder.get_feature_names_out(categorical_features)
-)
-
-feature_names = numeric_feature_names + categorical_feature_names
-
-# --- feature importance ---
-importances = model_rf.feature_importances_
+# --- feature importance --- 
+importances = pipeline.named_steps["rf"].feature_importances_
 
 feature_importances_df = pd.DataFrame({
     "Feature": feature_names,
     "Importance": importances
 }).sort_values(by="Importance", ascending=False)
+
 
 # --- plot ---
 plt.figure(figsize=(10, 8))
