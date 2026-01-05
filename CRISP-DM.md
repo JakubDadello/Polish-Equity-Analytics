@@ -94,7 +94,7 @@ To achieve this goal, four popular classification models based on machine learni
 The source code for each model is contained in a separate file within the notebooks folder.
 
 For building the Logistic Regression, SVM, and Random Forest models, the corresponding tools from the Python library scikit-learn were used. In contrast, the neural network was created using functions from the TensorFlow library, implemented via the specialized deep learning interface Keras.
-The training process involved estimating the model parameters (weights) with the goal of minimizing the loss function. Each model was trained six times. After each training cycle, predictions were generated, based on which three evaluation metrics were calculated: accuracy, precision, and recall, along with the confusion matrix.
+The training process involved estimating the model parameters (weights) with the goal of minimizing the loss function. 
 
 Each new training cycle of the model was preceded by adjustments to its hyperparameters for optimization.
 1. For Logistic Regression, the C hyperparameter, which controls the strength of regularization, was modified, and an additional operation was implemented during the Data Preparation phase - dimensionality reduction using Principal Component Analysis (PCA).
