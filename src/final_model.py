@@ -18,7 +18,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.20, random
 y_train = y_train.values.ravel()
 y_test  = y_test.values.ravel()
 
-# --- best_params from GridSearchCV ---
+# --- best parameters configuration ---
 best_params = {
     "n_estimators": 200,
     "criterion": "entropy",
