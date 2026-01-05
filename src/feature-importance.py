@@ -23,7 +23,6 @@ feature_importances_df = pd.DataFrame({
 
 
 # --- plot ---
-plt.style.use("dark_background")
 plt.figure(figsize=(10, 8))
 
 top_features = feature_importances_df.head(5)
