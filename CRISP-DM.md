@@ -147,9 +147,9 @@ The analytical model developed in this project, based on the CRISP-DM methodolog
 It requires a number of further actions, primarily related to:
 1. Modifying its structure, including increasing the number of numerical and categorical attributes. This would allow the model to take into account a larger set of factors determining its attractiveness for potential capital investments.
 2. Expanding the dataset by including more companies, which would enhance the system’s applicability to international financial markets.
-3. Functionally, it would be valuable to explore additional machine learning algorithms for classification tasks. These could include bagging-based ensemble classifiers, such as Random Forest, which performed best with the current project structure.
+3. Further exploration of ensemble methods: While Random Forest performed best in this iteration, further tuning of its hyperparameters and testing other bagging-based classifiers could stabilize the results even more.
 4. Within ensemble methods, boosting algorithms—including adaptive boosting (AdaBoost) and gradient boosting (XGBoost) - are also worth testing. This recommendation applies to the current dataset.
-4. With an increase in model structural complexity, deep learning approaches, such as the previously applied perceptron neural network, might achieve even greater effectiveness.
+5. With an increase in model structural complexity, deep learning approaches, such as the previously applied perceptron neural network, might achieve even greater effectiveness.
 
 The project aimed to create a classification system that automatically evaluates a company’s investment attractiveness. This objective was largely met.
 The evaluation method involved first grouping companies based on the temporal aspect of their financial statements and then by sector membership. Deterministic class assignment was based on a fundamental statistical measure of central tendency—the median of the relevant financial indicators.
