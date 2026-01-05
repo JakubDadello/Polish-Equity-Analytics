@@ -22,37 +22,28 @@ X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.20, random
 y_train = y_train.values.ravel()
 y_test  = y_test.values.ravel()
 
-# --- parameters for GridSearchCV ---
+# --- best_params from GridSearchCV ---
 best_params = {
-    "rf__n_estimators": 200,
-    "rf__criterion": "entropy",
-    "rf__max_depth": 10, 
+    "n_estimators": 200,
+    "criterion": "entropy",
+    "max_depth": 10, 
     "random_state": 42
 }
 
-
 # --- define pipeline with Random Forest ---
-chain = Pipeline([
+pipeline = Pipeline([
     ("preprocessing", preprocessor),
-    ("rf", RandomForestClassifier(best_params))
+    ("rf", RandomForestClassifier(**best_params))
 ])
 
-
-
-# --- GridSearchCV object ---
-grid_search = GridSearchCV(chain, param_grid, scoring='accuracy', cv=5)
-
 # --- train model ---
-grid_search.fit(X_train, y_train)
+pipeline.fit(X_train, y_train)
 
 # --- predictions ---
-y_pred = grid_search.predict(X_test)
+y_pred = pipeline.predict(X_test)
 
 # --- evaluation metrics ---
 accuracy_values = accuracy_score(y_test, y_pred)
 precision_values = precision_score(y_test, y_pred, average='macro')
 recall_values = recall_score(y_test, y_pred, average='macro')
 confusionmatrix_values = confusion_matrix(y_test, y_pred, labels=['low', 'middle', 'high'])
-
-# --- best pipeline ----
-pipeline = grid_search.best_estimator_
