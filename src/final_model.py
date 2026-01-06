@@ -1,4 +1,6 @@
-# --- hide warnings ---
+import os 
+# --- Import libraries and configure warnings ---
+# Import necessary packages for preprocessing, modeling, and evaluation
 import warnings
 from sklearn.exceptions import ConvergenceWarning
 warnings.filterwarnings('ignore', category=FutureWarning)
@@ -9,7 +11,13 @@ from sklearn.pipeline import Pipeline
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, precision_score, recall_score, confusion_matrix
+import joblib 
 
+# --- Define path to save trained model ---
+# The pipeline will be saved here for future use
+model_dir = "../models"
+os.makedirs(model_dir, exist_ok=True)
+model_path = os.path.join(model_dir, "pipeline_rf.joblib")
 
 # --- split data ---
 X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.20, random_state=42)
@@ -37,6 +45,10 @@ pipeline.fit(X_train, y_train)
 
 # --- predictions ---
 y_pred = pipeline.predict(X_test)
+
+# --- Save the trained pipeline ---
+# Model along with preprocessing steps is saved using joblib for later use
+joblib.dump(pipeline, model_path)
 
 # --- evaluation metrics ---
 accuracy_values = accuracy_score(y_test, y_pred)
