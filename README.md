@@ -13,7 +13,7 @@ The goal is to build a robust classification model that accurately predicts each
 
 ## Tech Stack
 
-- Language: Python 3.13.1
+- Language: Python 3.11
 - Libraries: Scikit-learn, Pandas, NumPy, Matplotlib, TensorFlow (MLP)
 - Tools: Power BI, SQL (Data Extraction), Canva (Presentation)
 
