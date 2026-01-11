@@ -17,5 +17,6 @@ The goal is to build a robust classification model that accurately predicts each
 - Language: Python 3.11
 - Libraries: Scikit-learn, Pandas, NumPy, Matplotlib, TensorFlow (MLP)
 - Tools: Power BI, SQL (Data Extraction), Canva (Presentation)
+- Backend & Deployment: FastAPI, Pydantic, Docker, Uvicorn, Joblib
 
 For the full CRISP-DM methodology, see [CRISP-DM.md](CRISP-DM.md)
