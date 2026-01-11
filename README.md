@@ -18,6 +18,14 @@ To run this project locally, you can use either Docker (recommended) or a standa
   ```bash
   docker run -p 8000:8000 polish-equity-analytics
 
+### Using Python (Local Environment)
+* **Install requirements:**
+  ```bash
+  pip install -r requirements.txt
+* ** Launch FastAPI server:*
+  ```bash
+  uvicorn src.main:app --host 0.0.0.0 --port 8000
+
 ## Repository Structure
 - `data/` - raw and labeled datasets (see `data/README.md`)
 - `ETL/` - SQL scripts 
