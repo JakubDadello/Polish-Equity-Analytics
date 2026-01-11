@@ -45,5 +45,5 @@ pipeline = Pipeline([
 pipeline.fit(X_train, y_train)
 
 # --- Save the trained pipeline ---
-# Model along with preprocessing steps is saved using joblib for later use
+# --- Model along with preprocessing steps is saved using joblib for later use
 joblib.dump(pipeline, model_path)
