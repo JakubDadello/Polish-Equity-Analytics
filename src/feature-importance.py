@@ -3,7 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 from preprocessing import numeric_features, categorical_features
-from final_model import pipeline
+
+pipeline = load("../models/pipeline_rf.joblib")
 
 # --- output ---
 path_output = "../reports"
