@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
-
+from joblib import load 
 from preprocessing import numeric_features, categorical_features
 
 pipeline = load("../models/pipeline_rf.joblib")
