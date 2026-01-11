@@ -11,6 +11,10 @@ The goal is to build a robust classification model that accurately predicts each
 To run this project locally, you can use either Docker (recommended) or a standard Python environment.
 
 ### Using Docker 
+* **Docker Compose:**
+  ```bash
+  docker-compose up --build
+
 * **Build the image:**
   ```bash
   docker build -t polish-equity-analytics .
