@@ -156,4 +156,4 @@ The evaluation method involved first grouping companies based on the temporal as
 
 For further development of the Random Forest model, the key areas for optimization include hyperparameter tuning, feature engineering, and rebalancing of class distributions.
 
-
+Although the model itself remains in the prototype phase, the project includes a fully functional technical deployment pipeline (FastAPI & Docker), ensuring that once the model is refined, it can be seamlessly integrated into a production environment
