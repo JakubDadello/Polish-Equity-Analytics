@@ -22,7 +22,7 @@ To run this project locally, you can use either Docker (recommended) or a standa
 * **Install requirements:**
   ```bash
   pip install -r requirements.txt
-* ** Launch FastAPI server:*
+* ** Launch FastAPI server:**
   ```bash
   uvicorn src.main:app --host 0.0.0.0 --port 8000
 
