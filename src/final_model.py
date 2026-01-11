@@ -44,15 +44,6 @@ pipeline = Pipeline([
 # --- train model ---
 pipeline.fit(X_train, y_train)
 
-# --- predictions ---
-y_pred = pipeline.predict(X_test)
-
 # --- Save the trained pipeline ---
 # Model along with preprocessing steps is saved using joblib for later use
 joblib.dump(pipeline, model_path)
-
-# --- evaluation metrics ---
-accuracy_values = accuracy_score(y_test, y_pred)
-precision_values = precision_score(y_test, y_pred, average='macro')
-recall_values = recall_score(y_test, y_pred, average='macro')
-confusionmatrix_values = confusion_matrix(y_test, y_pred, labels=['low', 'middle', 'high'])
