@@ -1,20 +1,21 @@
 # --- Core Data Science ---
-numpy==2.2.1
-pandas==2.2.3
-scikit-learn==1.6.1
-scipy==1.15.3
-joblib==1.5.0
+numpy>=2.0.0
+pandas>=2.2.0
+scikit-learn>=1.5.0
+scipy>=1.13.0
+joblib>=1.4.0
 
 # --- Deep Learning ---
-tensorflow==2.20.0
-keras==3.12.0
+# TensorFlow 2.16+ is required for native Keras 3 support
+tensorflow>=2.16.1
+keras>=3.3.0
 
 # --- Web API & Deployment ---
-fastapi
-uvicorn
-pydantic
-psycopg2-binary==2.9.10
+fastapi>=0.110.0
+uvicorn>=0.29.0
+pydantic>=2.6.0
+# psycopg2-binary>=2.9.9 # Uncomment if using PostgreSQL
 
 # --- Visualization & Reports ---
-matplotlib==3.10.3
-seaborn==0.13.2
+matplotlib>=3.8.0
+seaborn>=0.13.0
