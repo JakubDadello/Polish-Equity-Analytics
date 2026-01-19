@@ -17,10 +17,10 @@ To run this project locally, you can use either Docker (recommended) or a standa
 
 * **Build the image:**
   ```bash
-  docker build -t pqa_api .
+  docker build -t pqa_python_api .
 * **Run the container:**
   ```bash
-  docker run -p 8000:8000 pqa_container
+  docker run -p 8000:8000 pqa_python_container
 
 ### Using Python (Local Environment)
 * **Install requirements:**
