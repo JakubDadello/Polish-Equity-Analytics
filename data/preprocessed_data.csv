@@ -1,4 +1,4 @@
-id,name,net_income,net_cash_flow,roe,roa,ebitda,sector,cumulation,investment_level
+id,name,net_income,net_cash_flow,roe,roa,ebitda,sector,cumulation,investment_rating
 1,11 bit studios,8482.91,-15400.29,3.6,3.2,29015.6,technology and engineering,1,low
 2,3R Games,-10,-370,-0.04,-0.04,-11,technology and engineering,0,low
 3,4MASS,2298.11,-692.12,0.23,0.17,4148.93,consumer goods and e-commerce,0,high

@@ -1,371 +1,371 @@
-"id","name","net_income","net_cash_flow","roe","roa","ebitda","sector","cumulation","investment_level"
-1,"11 bit studios","8482.91","-15400.29","3.60","3.20","29015.60","technology and engineering",1,"low"
-2,"3R Games","-10.00","-370.00","-0.04","-0.04","-11.00","technology and engineering",0,"low"
-3,"4MASS","2298.11","-692.12","0.23","0.17","4148.93","consumer goods and e-commerce",0,"high"
-4,"ABPL","135149.00","28177.00","9.10","3.90","222478.00","technology and engineering",1,"middle"
-5,"ACAutogaz","9773.00","1778.00","6.30","4.40","18660.00","transport and motorization",1,"low"
-6,"Action","7711.00","-20798.00","0.08","0.05","12734.00","technology and engineering",0,"high"
-7,"Adiuvo","632.00","99.00","-1.90","-0.52","408.00","health and life sciences",0,"middle"
-8,"Agora","-13036.00","-14788.00","-2.00","-0.70","118514.00","communication technologies and media",1,"low"
-9,"Agroton","-2634.00","-1467.00","-2.80","-2.70","-3488.00","agriculture and food industry",0,"low"
-10,"Ailleron","658.00","-19889.00","0.22","0.09","20844.00","technology and engineering",0,"high"
-11,"Airway","-1072.00","-1972.00","-4.20","-3.95","-1357.00","health and life sciences",0,"low"
-12,"Alior Bank","1116540.00","3407050.00","9.70","1.12","1736206.00","financial and insurance",1,"high"
-13,"AIGAMES","1602.23","-16.85","-23.70","-0.01","-354.17","technology and engineering",0,"middle"
-14,"Allegro","296500.00","-259500.00","0.11","0.06","710500.00","consumer goods and e-commerce",0,"middle"
-15,"Alta","-709.00","-105.00","-0.03","-0.03","-699.00","real estate and construction",0,"low"
-16,"Altus","3108.00","2366.00","0.11","0.10","2421.00","financial and insurance",0,"high"
-17,"Ambra","38559.00","4752.00","9.10","4.90","99201.00","agriculture and food industry",1,"high"
-18,"Amica","-6700.00","-28600.00","0.00","0.00","18400.00","technology and engineering",0,"low"
-19,"Amrest","13000.00","-30200.00","0.02","0.00","82300.00","hospitality industry",0,"middle"
-20,"Answear","3660.00","-22315.00","-0.01","0.00","9915.00","consumer goods and e-commerce",0,"middle"
-21,"Apator","12029.00","6564.00","0.12","0.07","34970.00","manufacturing industry",0,"high"
-22,"APLISENS","8364.00","1151.00","3.80","3.40","15158.00","manufacturing industry",1,"high"
-23,"APSENERGY","-1952.00","-1214.00","-1.09","-0.32","-621.00","manufacturing industry",0,"low"
-24,"Archicom","-32220.00","-43731.00","0.01","0.01","-31172.00","real estate and construction",0,"low"
-25,"Arctic","-58845.00","-55336.00","-4.20","-2.11","-30563.00","manufacturing industry",1,"low"
-26,"Arlen","48348.00","45390.00","0.24","0.18","76217.00","consumer goods and e-commerce",1,"middle"
-27,"Artifex","8543.11","-1834.67","0.28","0.23","8094.58","technology and engineering",0,"high"
-28,"AS Silvano","2752.00","-8151.00","0.21","0.17","2165.00","consumer goods and e-commerce",0,"middle"
-29,"ASMGroup","-1421.00","3053.00","0.37","0.10","1713.00","communication technologies and media",0,"high"
-30,"AssecoPol","136200.00","-116200.00","0.15","0.07","682900.00","technology and engineering",0,"high"
-31,"AssecoBS","50750.00","-38663.00","15.20","10.70","74423.00","technology and engineering",0,"high"
-32,"Astarta","42271.00","-13679.00","8.00","5.66","80876.00","agriculture and food industry",1,"high"
-33,"Atal","17067.00","-425.00","0.13","0.06","32319.00","real estate and construction",0,"high"
-34,"Atende","1914.00","-43231.00","-0.12","-0.04","5916.00","technology and engineering",0,"middle"
-35,"ATMGrupa","3290.00","-121.00","0.08","0.06","13714.00","communication technologies and media",0,"high"
-36,"Atrem","10747.00","564.00","23.20","5.80","13359.00","real estate and construction",1,"high"
-37,"Auto Partner","39236.00","20797.00","0.18","0.11","71038.00","transport and motorization",0,"high"
-38,"Bank Handlowy","600530.00","5390692.00","6.50","0.72","1182890.00","financial and insurance",1,"middle"
-39,"Bank Millennium","510746.00","-1100597.00","6.10","0.35","1092099.00","financial and insurance",1,"low"
-40,"Bank Ochrony Środowiska","79721.00","961299.00","3.40","0.34","147955.00","financial and insurance",1,"low"
-41,"Pekao","3286000.00","3663000.00","10.50","1.40","5093000.00","financial and insurance",1,"high"
-42,"BBI Development","1158.00","9214.00","0.02","0.01","-762.00","real estate and construction",0,"middle"
-43,"Benefit Systems","199610.00","437296.00","9.80","3.30","524970.00","commercial services",1,"high"
-44,"Best","4381.00","41757.00","0.10","0.05","31661.00","real estate and construction",0,"high"
-45,"Betacom","2046.00","11143.00","0.08","0.03","5758.00","technology and engineering",1,"low"
-46,"Big Cheese Studio","300.00","-524.00","0.19","0.16","691.00","technology and engineering",0,"middle"
-47,"BioPlanet","2397.00","-230.00","0.12","0.03","4000.00","consumer goods and e-commerce",0,"high"
-48,"Bioceltix","-3794.06","-1060.38","-0.44","-0.39","-3636.00","health and life sciences",0,"low"
-49,"Biomaxima","589.00","-332.00","0.02","0.01","1822.00","health and life sciences",0,"high"
-50,"Bioton","-5808.00","-4224.00","-0.03","-0.02","5372.00","chemicals and health products",0,"middle"
-51,"BNP Paribas","1475294.00","-2586135.00","9.30","0.88","2381979.00","financial and insurance",1,"middle"
-52,"Boombit","10.00","-1669.00","0.03","0.02","5093.00","technology and engineering",0,"low"
-53,"Boryszew","9059.00","-7788.00","0.64","0.26","121148.00","manufacturing industry",1,"middle"
-54,"Bowim","-1895.35","1829.30","-0.05","-0.03","5830.08","manufacturing industry",0,"middle"
-55,"BRAND24","1089.00","855.00","0.06","0.03","1937.00","technology and engineering",0,"high"
-56,"Braster","-616.00","-7.00","12.20","-0.21","-113.00","health and life sciences",0,"high"
-57,"Budimex","270483.00","-1143529.00","31.70","3.68","386149.00","real estate and construction",1,"high"
-58,"Bumech","-416.00","7221.00",NULL,"-1.32","12266.00","manufacturing industry",0,"middle"
-59,"Capitea","11960.00","-35896.00","0.45","0.14","17719.00","real estate and construction",0,"high"
-60,"Captorx","-10719.00","-22633.00","-0.73","-0.51","-9490.00","health and life sciences",0,"low"
-61,"Caspar","773.00","72.00","0.06","0.05","1706.00","financial and insurance",0,"high"
-62,"Cavatina","150.00","-112.00","0.01","0.00","3625.00","real estate and construction",0,"middle"
-63,"CCC","956900.00","194700.00","0.71","0.12","1634700.00","consumer goods and e-commerce",1,"middle"
-64,"CD Project","154956.00","22088.00","5.40","4.90","201298.00","technology and engineering",1,"high"
-65,"CDRL","-1922.00","-15038.00","2.10","1.00","1870.00","consumer goods and e-commerce",1,"middle"
-66,"Celon Pharma","-25086.00","-3481.00","-0.10","-0.08","-5501.00","chemicals and health products",0,"low"
-67,"CEZ","16653000.00","30256000.00","7.20","1.90","75817000.00","energy technology",1,"high"
-68,"CFI","2096.00","-2447.00","0.02","0.01","10009.00","hospitality industry",0,"low"
-69,"CI Games","1001.00","911.00","-0.04","-0.02","8125.00","technology and engineering",0,"middle"
-70,"CityServ","4287.00","-463.00","15.60","4.60","5441.00","commercial services",1,"middle"
-71,"CCEnergy","-54.00","-265.00","-0.02","-0.01","-54.00","real estate and construction",0,"low"
-72,"Cloud","66.29","1928.92","0.13","0.11","4439.29","technology and engineering",0,"high"
-73,"Cognor","-13982.00","-78764.00","-0.06","-0.03","6010.00","manufacturing industry",0,"low"
-74,"Columbus","-17175.00","-6895.00",NULL,"-0.06","-3293.00","energy technology",0,"low"
-75,"Comp","35600.00","-173655.00","7.60","4.40","72138.00","technology and engineering",1,"middle"
-76,"Comperia","-1568.00","-2037.00","-0.35","-0.24","-530.00","communication technologies and media",0,"low"
-77,"Compremum","-11742.00","-234.00","-0.29","-0.13","-3916.00","real estate and construction",0,"low"
-78,"CPD","-112.00","111.00",NULL,"-8.43","-100.00","real estate and construction",0,"low"
-79,"CPI Europe","52527.00","88233.00","0.03","0.01","90693.00","real estate and construction",0,"middle"
-80,"Creepy Jar","4997.83","7859.07","0.17","0.16","5159.83","technology and engineering",0,"high"
-81,"Creotech","1404.00","74270.00","-0.17","-0.09","4529.00","technology and engineering",0,"middle"
-82,"Cyber-Folks","13346.00","45104.00","0.31","0.15","56846.00","technology and engineering",0,"high"
-83,"Cyfrowy Polsat","195500.00","-280400.00","1.20","0.52","1854000.00","communication technologies and media",1,"middle"
-84,"Czerwona Torebka","-2889.00","2980.00","-0.11","-0.06","-497.00","real estate and construction",0,"low"
-85,"Dadelo","16972.00","-11119.00","12.60","5.60","26827.00","consumer goods and e-commerce",1,"middle"
-86,"Datawalk","-51306.00","31068.00",NULL,"-42.00","-58578.00","technology and engineering",1,"low"
-87,"DB Energy","160.06","1271.67","0.62","0.22","2609.82","energy technology",1,"low"
-88,"Decora","38707.00","-2248.00","11.10","7.40","61759.00","real estate and construction",1,"high"
-89,"Dekpol","30417.00","7189.00","0.17","0.06","51022.00","real estate and construction",0,"high"
-90,"Develia","65278.00","-129142.00","0.22","0.08","47515.00","real estate and construction",0,"high"
-91,"DGA","568.00","400.00","-0.10","-0.06","-791.00","commercial services",0,"middle"
-92,"Diagnostyka","72859.00","-7047.00","14.80","6.30","159313.00","health and life sciences",0,"high"
-93,"Digitanet","4682.95","6831.63","0.55","0.32","8558.42","communication technologies and media",0,"high"
-94,"Digitree","-1335.43","-1809.77","-0.32","-0.16","-142.49","technology and engineering",0,"low"
-95,"Dino","708769.00","-395085.00","9.10","5.30","1182759.00","consumer goods and e-commerce",1,"high"
-96,"Dom Development","245650.00","374795.00","14.00","4.10","315841.00","real estate and construction",1,"high"
-97,"DMGroup","7447.00","-9106.00","0.15","0.09","13892.00","chemicals and health products",0,"high"
-98,"DragoEnt","233.22","-1378.42","0.24","0.20","353.93","technology and engineering",0,"middle"
-99,"ECB","1321.00","3029.00","0.56","0.36","2018.00","energy technology",0,"high"
-100,"Echo Investment","-85442.00","-183473.00","-0.05","-0.02","-61419.00","real estate and construction",0,"low"
-101,"EdInvest","-279.00","233.00","0.03","0.02","-42.00","real estate and construction",0,"middle"
-102,"Elektrotim","4276.00","-21148.00","0.29","0.15","6924.00","real estate and construction",0,"high"
-103,"Elkop","9469.00","-198.00","0.28","0.23","7954.00","real estate and construction",1,"middle"
-104,"Enea","1051428.00","655958.00","0.06","0.03","1940783.00","energy technology",0,"high"
-105,"Estar","519102.00","112935.00","0.16","0.14","-362038.00","energy technology",1,"middle"
-106,"Energa","848000.00","660.00","6.70","2.40","2171000.00","energy technology",1,"high"
-107,"Enap","1515.00","211.00","0.17","0.12","1872.00","real estate and construction",0,"high"
-108,"Energoinstal","-2454.00","-1746.00","-0.21","-0.07","-1721.00","real estate and construction",0,"low"
-109,"Enter Air","27090.00","-103150.00","0.44","0.06","40151.00","transport and motorization",0,"middle"
-110,"Equnico","1189.00","-1542.00","0.04","0.03","4274.00","real estate and construction",0,"high"
-111,"Erbud","-13152.00","-102000.00","-0.07","-0.02","2813.00","real estate and construction",0,"low"
-112,"ERG","-572.00","-184.00","-0.04","-0.02","812.00","manufacturing industry",0,"low"
-113,"Esotiq&Henderson","-74.00","-1180.00","0.16","0.06","4583.00","consumer goods and e-commerce",0,"middle"
-114,"Eurocash","-99033.38","152177.35","-16.20","-1.20","350615.33","consumer goods and e-commerce",1,"middle"
-115,"Eurohold","71885.00","66975.00","21.80","2.50","216860.00","financial and insurance",1,"middle"
-116,"EUCO","321.00","-255.00",NULL,"0.81","448.00","financial and insurance",0,"middle"
-117,"Eurotel","4579.00","-32827.00","0.16","0.07","9046.00","technology and engineering",0,"high"
-118,"Fabrity","1667.00","-7835.00","5.90","4.00","3307.00","technology and engineering",1,"low"
-119,"Fabryka Farb Sniezka","10603.00","-27824.00","0.19","0.09","26634.00","real estate and construction",0,"high"
-120,"Forte","50190.00","83824.00","0.05","0.03","127314.00","consumer goods and e-commerce",1,"middle"
-121,"Fasing","-116.75","-1817.86","0.06","0.04","9406.38","manufacturing industry",0,"middle"
-122,"Feerum","1296.00","-805.00","-0.01","-0.01","2905.00","manufacturing industry",0,"middle"
-123,"Ferro","20044.00","-54901.00","0.17","0.10","28760.00","real estate and construction",0,"high"
-124,"FON","325.00","-11.00","5.00","3.70","421.00","financial and insurance",1,"low"
-125,"Games Operators","812.00","7.00","0.52","0.43","1737.00","technology and engineering",0,"high"
-126,"Gaming Factory","-547.00","-1815.00","-0.51","-0.40","148.00","technology and engineering",0,"low"
-127,"GENOMTEC","-3205.00","7142.00","-1.16","-0.59","-2501.00","health and life sciences",0,"low"
-128,"GETIN","176447.00","9656.00","1.15","0.22","2699.00","financial and insurance",0,"high"
-129,"GI Group","-6209.96","-10211.88",NULL,"0.00","-3730.77","commercial services",0,"low"
-130,"GPW","108177.00","187239.00","10.40","7.50","117074.00","financial and insurance",1,"middle"
-131,"Global Trade Centre","-4000.00","102200.00","-0.08","-0.03","170300.00","real estate and construction",1,"middle"
-132,"Gobarto","13936.00","-22477.00","2.30","0.92","60766.00","agriculture and food industry",1,"low"
-133,"Grenevia","142000.00","18000.00","6.40","3.40","323000.00","manufacturing industry",1,"high"
-134,"Grodno","-22879.00","-1794.00","-0.17","-0.05","-7022.00","manufacturing industry",1,"low"
-135,"Grupa Azoty","-288174.00","-39948.00","-0.19","-0.04","-6923.00","chemicals and health products",0,"low"
-136,"Grupa Azoty Zakłady Azotowe Puławy","-88075.00","550.00","-0.10","-0.05","1149.00","chemicals and health products",0,"low"
-137,"Grupa Azoty Zakłady Chemiczne Police","-65729.00","-2576.00","-0.11","-0.02","170.00","chemicals and health products",0,"low"
-138,"Grupa Kęty","290000.00","-10000.00","17.00","6.60","523000.00","manufacturing industry",1,"high"
-139,"Grupa Pracuj","119515.00","109695.00","29.60","10.50","185151.00","technology and engineering",1,"high"
-140,"Harper","3385.10","-430.10","0.10","0.02","5362.80","chemicals and health products",0,"high"
-141,"Helio","15369.00","-1134.00","9.20","5.30","28752.00","agriculture and food industry",1,"middle"
-142,"Herkules","-2400.00","2240.00","-0.08","-0.03","1952.00","real estate and construction",0,"low"
-143,"Huuuge","19813.00","21920.00","0.40","0.34","24728.00","technology and engineering",0,"high"
-144,"IDM","113.21","462.44",NULL,"0.42","-235.51","financial and insurance",0,"middle"
-145,"IFirma","7573.00","924.00","44.60","26.80","9222.00","technology and engineering",1,"middle"
-146,"IMCompany","51577.00","-32226.00","25.50","14.40","64696.00","agriculture and food industry",1,"high"
-147,"Imperio","315.00","-125.00","0.08","0.07","-108.00","financial and insurance",0,"middle"
-148,"IMS","1029.00","-1871.00","0.20","0.11","3023.00","communication technologies and media",0,"high"
-149,"INC","2737.00","-6235.00","-0.03","-0.02","605.00","financial and insurance",0,"middle"
-150,"ING Bank Śląski","2149000.00","467000.00","12.20","0.76","3314000.00","financial and insurance",1,"high"
-151,"Inpro","6255.00","10454.00","0.10","0.06","10917.00","real estate and construction",0,"high"
-152,"Instal","10941.65","-4943.95","0.12","0.08","14841.85","real estate and construction",0,"high"
-153,"InterCars","157675.00","62383.00","0.15","0.07","309496.00","transport and motorization",0,"high"
-154,"Interbud","256.08","1055.35","-0.25","-0.09","489.88","real estate and construction",0,"low"
-155,"Intersport","-49961.00","-380.00",NULL,"-0.26","-10851.00","consumer goods and e-commerce",1,"low"
-156,"Introl","4424.00","-2169.00","2.50","0.91","21053.00","manufacturing industry",1,"middle"
-157,"IFSA","47.00","7.00","3.20","3.10","-6.00","financial and insurance",1,"low"
-158,"Ipopema","-256.00","5448.00","0.07","0.02","293.00","financial and insurance",0,"middle"
-159,"Izoblok","-6300.24","-3676.47","-0.04","-0.01","-1318.49","manufacturing industry",0,"low"
-160,"Izolacja-Jarocin","192.00","-563.00","0.08","0.06","359.00","real estate and construction",0,"middle"
-161,"Izostal","8266.00","-18588.00","3.10","1.10","25356.00","real estate and construction",1,"low"
-162,"JSW","-1363500.00","-115900.00","-0.76","-0.37","-1226800.00","manufacturing industry",0,"low"
-163,"JRH","12282.09","-904.56","-0.18","-0.13","15982.57","financial and insurance",0,"middle"
-164,"JWW","167.00","-6621.00","0.13","0.06","1165.00","manufacturing industry",0,"middle"
-165,"KCI","-3405.00","-923.00","-0.04","-0.04","-2668.00","communication technologies and media",0,"low"
-166,"Kernel","217906.00","-261052.00","10.60","6.60","397667.00","agriculture and food industry",1,"high"
-167,"KGHM","579000.00","-349000.00","1.80","1.00","2150000.00","manufacturing industry",1,"high"
-168,"KGL","-479.00","-1642.00","-0.06","-0.02","9046.00","chemicals and health products",0,"middle"
-169,"Komputronik","-15918.00","-14761.00","-0.06","-0.03","11083.00","technology and engineering",1,"low"
-170,"KPPD","-10001.00","2547.00","-10.00","-5.60","1417.00","manufacturing industry",1,"low"
-171,"Krakchemia","-2587.00","-54.00",NULL,"-0.73","-738.00","chemicals and health products",0,"middle"
-172,"KRKA","245844.00","188764.00","9.90","7.80","303254.00","chemicals and health products",1,"high"
-173,"Kruk","584018.00","51340.00","12.30","4.80","835227.00","real estate and construction",1,"high"
-174,"Krynica Vitamin","924.00","-167.00","0.16","0.06","4403.00","agriculture and food industry",0,"middle"
-175,"KSG Argo","157.00","-271.00","3.10","0.50","1040.00","agriculture and food industry",1,"low"
-176,"LARQ","2294.23","-151.38","-0.10","-0.08","-97.53","communication technologies and media",0,"middle"
-177,"LC","126.00","-932.00","0.06","0.04","232.00","manufacturing industry",0,"middle"
-178,"Lena Lighting","95.00","-416.00","0.02","0.02","2005.00","manufacturing industry",0,"middle"
-179,"Lentex","7680.00","-11702.00","3.10","1.70","17177.00","commercial services",1,"middle"
-180,"Less","-415.00","147.00",NULL,"-0.38","-292.00","consumer goods and e-commerce",0,"low"
-181,"Libet","-3641.39","-4452.48","-3.40","-2.70","1801.80","real estate and construction",1,"low"
-182,"Lokum","33157.00","66204.00","0.09","0.06","45099.00","real estate and construction",0,"high"
-183,"LPP","1747000.00","-226000.00","0.35","0.11","4104000.00","consumer goods and e-commerce",1,"middle"
-184,"LSISoft","2586.00","1742.00","0.14","0.10","4450.00","technology and engineering",0,"high"
-185,"Lubawa","11620.00","-119160.00","0.23","0.15","16181.00","chemicals and health products",0,"high"
-186,"M.W. Trade","-752.00","1430.00","-0.13","-0.12","-800.00","financial and insurance",0,"low"
-187,"Mabion","-15255.00","-14760.00","-0.32","-0.22","-11681.00","chemicals and health products",0,"low"
-188,"Magna Polonia","599.00","586.00","0.01","0.01","677.00","financial and insurance",0,"high"
-189,"Makarony Polskie","7622.00","-3372.00","0.19","0.13","13098.00","agriculture and food industry",0,"high"
-190,"Mangata","7881.00","2509.00","0.04","0.02","23603.00","manufacturing industry",0,"high"
-191,"Manydev","-132.00","-56.00",NULL,"-3.34","-49.00","technology and engineering",0,"low"
-192,"MBWS","9645.00","10927.00","0.05","0.03","14393.00","agriculture and food industry",1,"low"
-193,"Marvipol","22492.00","-24988.00","3.20","1.51","44760.00","real estate and construction",1,"middle"
-194,"Maxcom","-1968.00","-527.00","-0.07","-0.04","-1603.00","technology and engineering",0,"low"
-195,"MBank","1665061.00","-15872341.00","8.50","0.65","3122738.00","financial and insurance",1,"middle"
-196,"MCI Capital","34455.00","-7552.00","1.70","1.40","52441.00","financial and insurance",1,"low"
-197,"MDIEnergia","169.00","-1916.00","-0.20","-0.04","343.00","real estate and construction",0,"low"
-198,"Medicalg","-4199.00","67.00","-0.20","-0.15","-3100.00","health and life sciences",0,"middle"
-199,"Medinice","-1083.00","-2879.00","0.74","0.68","-1062.00","health and life sciences",0,"high"
-200,"Megaron","443.00","-493.00","0.05","0.03","1325.00","real estate and construction",0,"middle"
-201,"Mennica Polska","75816.00","64471.00","10.70","4.90","90717.00","manufacturing industry",1,"high"
-202,"Mercator","29811.00","1989.00","0.08","0.07","5382.00","health and life sciences",0,"high"
-203,"Mercor","16148.00","4299.00","0.07","0.04","39122.00","real estate and construction",1,"middle"
-204,"MEXPolska","-1004.43","-159.46","0.07","0.02","2240.57","hospitality industry",0,"middle"
-205,"MFO","3481.00","-13343.00","0.02","0.01","8412.00","real estate and construction",0,"middle"
-206,"Miraculum","-165.62","-100.76","-0.60","-0.30","1072.05","chemicals and health products",1,"low"
-207,"Mirbud","36120.00","-279379.00","3.20","1.40","71818.00","real estate and construction",1,"middle"
-208,"MLSystem","-17353.00","-2385.00","-0.38","-0.13","-7967.00","energy technology",0,"low"
-209,"MLP Group","79165.00","-387228.00","2.80","1.20","167124.00","real estate and construction",1,"middle"
-210,"Mobruk","26395.24","-3805.94","11.70","5.40","51958.99","energy technology",1,"middle"
-211,"MOJ","1099.00","1270.00","0.08","0.04","1868.00","manufacturing industry",0,"high"
-212,"MOL","190419000.00","-65962000.00","4.60","3.10","533909000.00","chemicals and health products",1,"high"
-213,"Molecure","-5184.73","22469.49","-0.32","-0.29","-4770.91","health and life sciences",0,"low"
-214,"Monnari","1108.00","-26600.00","0.07","0.06","3954.00","consumer goods and e-commerce",0,"low"
-215,"Mostostal Płock","1039.00","-3202.00","5.40","1.10","3279.00","real estate and construction",1,"low"
-216,"Mostostal Warszawa","423.00","-102735.00","-0.27","-0.02","23161.00","real estate and construction",0,"low"
-217,"Mostostal Zabrze","9185.00","-30309.00","0.17","0.08","16758.00","real estate and construction",0,"high"
-218,"Movie Games","-2976.00","-1579.00","-0.05","-0.04","2385.00","technology and engineering",0,"low"
-219,"Murapol","68605.00","-17168.00","0.40","0.11","86438.00","real estate and construction",0,"high"
-220,"Muza","41.00","-445.00","0.08","0.05","1458.00","communication technologies and media",0,"low"
-221,"NanoGroup","-1807.00","-3227.00","-0.56","-0.36","-1895.00","health and life sciences",0,"low"
-222,"Neptis","1862.15","3422.62","48.20","6.90","2577.74","technology and engineering",1,"middle"
-223,"Neuca","68214.00","23041.00","6.50","1.20","185143.00","chemicals and health products",1,"middle"
-224,"NTCapital","-97.04","183.14","0.10","0.07","-97.04","financial and insurance",0,"middle"
-225,"Newag","52297.00","-18472.00","0.19","0.09","81179.00","transport and motorization",0,"high"
-226,"Nexity","-94.09","1.89",NULL,"-1.92","-67.39","commercial services",0,"middle"
-227,"Noctiluca","-1401.19","2686.35",NULL,"-1.37","-1222.50","technology and engineering",0,"low"
-228,"Novavis","-765.00","471.00","-0.62","-0.13","-938.00","energy technology",0,"low"
-229,"Novita","4827.00","-2376.00","0.18","0.13","6989.00","commercial services",0,"high"
-230,"NPL","312.61","-873.27","-0.03","-0.01","-41.90","real estate and construction",0,"low"
-231,"NTTSystem","5803.00","10205.00","0.10","0.05","6468.00","technology and engineering",0,"high"
-232,"Octava","-2890.00","79.00","-0.22","-0.14","-2527.00","real estate and construction",0,"low"
-233,"Odlewanie Polskie","3731.00","7870.00","0.08","0.06","7552.00","manufacturing industry",0,"high"
-234,"Onde","-5621.00","-57331.00","0.02","0.01","-1171.00","energy technology",0,"low"
-235,"Onesano","-2121.00","-3186.00","-28.00","-18.70","-1961.00","health and life sciences",1,"low"
-236,"Oponeo.pl","23974.00","-8349.00","10.90","2.21","55744.00","consumer goods and e-commerce",1,"middle"
-237,"Opteam","-2904.96","-2895.05","-0.29","-0.19","-1482.95","technology and engineering",0,"low"
-238,"Orange Polska","465000.00","103000.00","3.50","1.70","2043000.00","communication technologies and media",1,"high"
-239,"Orlen","5846000.00","14633000.00","4.00","2.20","17008000.00","chemicals and health products",1,"high"
-240,"Orzeł Biały","27178.00","-26832.00","0.16","0.14","26405.00","energy technology",0,"high"
-241,"OT Logistics","-10857.00","446.00","-0.12","-0.03","6580.00","transport and motorization",0,"low"
-242,"Panova","6521.00","-3873.00","0.05","0.03","12779.00","real estate and construction",0,"high"
-243,"Pamapol","-8376.00","-4279.00","-0.12","-0.03","3251.00","agriculture and food industry",0,"low"
-244,"Passus","-555.00","-1598.00","0.80","0.28","-203.00","technology and engineering",0,"middle"
-245,"Patentus","13544.00","-2513.00","8.00","6.40","16277.00","manufacturing industry",1,"middle"
-246,"PBG","-80478.00","-585.00",NULL,"-8.62","-69044.00","real estate and construction",0,"low"
-247,"PBS","-121.00","282.00","-0.05","-0.03","-136.00","financial and insurance",0,"low"
-248,"PCC Exol","20801.00","-13239.00","4.20","2.10","43291.00","chemicals and health products",1,"low"
-249,"PCC Rokita","8233.00","-76036.00","0.63","0.35","117637.00","chemicals and health products",1,"low"
-250,"PCF Group","-3749.00","-24110.00","-0.52","-0.40","1680.00","technology and engineering",0,"low"
-251,"Pepco","-151447.00","-30350.00","-46.70","-4.30","452106.00","consumer goods and e-commerce",1,"low"
-252,"PGE","2416000.00","1252000.00","-0.03","-0.01","4310000.00","energy technology",0,"middle"
-253,"Pharmenia","-1189.00","-1536.00","-10.60","-9.80","-1481.00","chemicals and health products",1,"low"
-254,"Photon Energy","-6942.00","-4560.00","-12.00","-2.60","3877.00","energy technology",1,"low"
-255,"PJP Makrum","2656.00","-9430.00","1.62","0.65","11051.00","real estate and construction",1,"low"
-256,"PKP Cargo","-48600.00","-29500.00","-1.22","-0.32","74700.00","transport and motorization",0,"low"
-257,"Playway","31230.00","11738.00","0.41","0.35","43668.00","technology and engineering",0,"high"
-258,"Plaza","-3492.00","-366.00",NULL,NULL,"9.00","real estate and construction",1,"low"
-259,"PolEnergia","-39809.00","-221771.00","-0.90","-0.50","220636.00","energy technology",1,"low"
-260,"Polimex","76894.00","50207.00","11.50","2.70","129420.00","real estate and construction",1,"high"
-261,"PHN","185600.00","164800.00","0.01","0.01","104000.00","real estate and construction",0,"middle"
-262,"Poltreg","-5471.00","-4958.00","-0.28","-0.19","-4280.00","health and life sciences",0,"low"
-263,"Polwax","-3949.00","-28186.00","-0.41","-0.18","-3311.00","chemicals and health products",0,"low"
-264,"PKO BP","5130000.00","1481000.00","9.90","0.94","8344000.00","financial and insurance",1,"high"
-265,"PZU","3230000.00","8018000.00","10.11","0.62","10188000.00","financial and insurance",1,"high"
-266,"Pekabex","2171.00","-54877.00","0.06","0.02","13370.00","real estate and construction",0,"high"
-267,"Prochem","-5738.00","-3211.00","-0.57","-0.22","-2648.00","real estate and construction",0,"low"
-268,"Protektor","-681.00","-108.00","-0.40","-0.15","1579.00","consumer goods and e-commerce",0,"low"
-269,"Pepees","564.00","-21133.00","-0.06","-0.03","6252.00","agriculture and food industry",0,"low"
-270,"Pure","-1338.00","-87.00",NULL,"-1.70","-746.00","health and life sciences",0,"middle"
-271,"PZ Cormay","580.00","-1432.00","-0.09","-0.05","1476.00","chemicals and health products",0,"middle"
-272,"QNA Technology","-2386.04","8639.85","-1.17","-0.77","-2311.64","technology and engineering",0,"low"
-273,"Quantum","750.00","-1304.00","0.31","0.21","1212.00","technology and engineering",0,"middle"
-274,"Quercus","21870.00","13302.00","28.00","11.50","26880.00","financial and insurance",1,"middle"
-275,"Raen","-753.00","-32.00","-0.81","-0.45","-952.00","energy technology",0,"low"
-276,"Rainbow","59525.00","22407.00","0.75","0.24","75636.00","hospitality industry",0,"high"
-277,"Rank","-5476.00","-1607.00","-0.04","-0.02","-6147.00","real estate and construction",0,"low"
-278,"Rawlplug","-4280.00","-3761.00","-0.66","0.28","51930.00","manufacturing industry",1,"low"
-279,"Redan","-142.00","-87.00",NULL,NULL,"-168.00","consumer goods and e-commerce",0,"low"
-280,"Reino","38.71","-243.14","-0.38","-0.21","538.94","financial and insurance",0,"low"
-281,"Relpol","-2353.00","-353.00","-2.50","-1.80","665.00","manufacturing industry",1,"low"
-282,"Remak","688.00","1414.00","0.91","0.40","3846.00","real estate and construction",1,"low"
-283,"Render","1475.58","2476.27","0.15","0.14","3500.80","technology and engineering",0,"high"
-284,"RYVU","-25276.00","-8337.00","-0.70","-0.31","-25335.00","health and life sciences",0,"low"
-285,"Sanok Rubber","19662.00","62543.00","3.60","1.50","71762.00","transport and motorization",1,"low"
-286,"Santander Bank","2751594.00","-7477361.00","8.00","0.90","4761480.00","financial and insurance",1,"middle"
-287,"Sanwil","1403.00","-7167.00","0.00","0.00","-88.00","consumer goods and e-commerce",0,"low"
-288,"Satis","-60.00","-1.00",NULL,"-120.42","-91.00","technology and engineering",0,"low"
-289,"Scope","-10999.00","-13310.00","0.63","0.51","-9987.00","health and life sciences",0,"middle"
-290,"Seco Group","5542.00","-60373.00","0.09","0.04","13712.00","manufacturing industry",0,"high"
-291,"Seko","2999.00","2894.00","3.20","2.30","6842.00","agriculture and food industry",1,"low"
-292,"Selena FM","19565.00","5978.00","0.12","0.06","40234.00","real estate and construction",0,"high"
-293,"Selvita","-986.00","-6985.00","-0.02","-0.01","14128.00","health and life sciences",0,"high"
-294,"Serinus","-894.00","-483.00","-0.53","-0.14","-146.00","manufacturing industry",0,"low"
-295,"Sfinks","-2019.00","-461.00",NULL,"-0.07","1667.00","hospitality industry",0,"low"
-296,"Shoper","19103.00","-4516.00","28.70","12.90","34873.00","technology and engineering",1,"high"
-297,"Silvair","171.00","67.00","-0.02","-0.01","716.00","technology and engineering",0,"low"
-298,"Simfabric","841.00","1816.00","-0.03","-0.02","2907.00","technology and engineering",0,"middle"
-299,"Skarbiec Holding","61701.00","466717.00","0.29","0.08","59624.00","financial and insurance",1,"low"
-300,"Skyline","-148.00","-241.00","0.00","0.00","-314.00","financial and insurance",0,"low"
-301,"Soho Development","-1127.00","1822.00","9.80","9.40","-1378.00","real estate and construction",1,"middle"
-302,"Sonel","4195.00","13163.00","0.20","0.14","8451.00","manufacturing industry",0,"high"
-303,"Sopharma D","70397.00","-1082.00","7.90","3.60","106147.00","chemicals and health products",1,"middle"
-304,"Spyrosoft","16968.00","1082.00","12.40","6.30","29599.00","technology and engineering",1,"middle"
-305,"Stalexport","48138.00","-12581.00","7.20","4.10","109775.00","transport and motorization",1,"middle"
-306,"Stalprodukt","-24324.00","-141426.00","0.67","0.50","68860.00","manufacturing industry",1,"low"
-307,"Stalprofit","3731.00","-9017.00","0.75","0.30","27595.00","manufacturing industry",1,"low"
-308,"Starhedge","73.00","211.00","-0.31","-0.23","113.00","financial and insurance",0,"low"
-309,"Sunex","-7241.46","592.00","-0.19","-0.06","-3815.95","manufacturing industry",0,"low"
-310,"Sygnity","30634.00","18124.00","9.80","7.20","43760.00","technology and engineering",1,"high"
-311,"Synektik","71272.24","-38948.84","37.30","17.80","122944.88","health and life sciences",1,"high"
-312,"Synthaverse","-538.00","-757.00","0.06","0.03","3364.00","chemicals and health products",0,"high"
-313,"TBULL","-629.96","4.43","-0.75","-0.47","-552.40","technology and engineering",0,"low"
-314,"Talex","-922.00","-4696.00","1.90","1.05","905.00","technology and engineering",1,"low"
-315,"Tarczyński","29304.00","229.00","0.17","0.06","65163.00","agriculture and food industry",0,"high"
-316,"Tauron","1130000.00","1035000.00","0.07","0.03","2365000.00","energy technology",0,"high"
-317,"TSGames","47442.93","-61813.72","24.90","14.10","60566.91","technology and engineering",1,"high"
-318,"Tenderhut","287.00","-1278.00","-0.18","-0.12","700.00","technology and engineering",0,"low"
-319,"Termo-rex","450.00","1691.00","0.07","0.06","336.00","chemicals and health products",0,"high"
-320,"Tesgas","-5126.00","-12518.00","6.20","4.40","-3592.00","real estate and construction",1,"middle"
-321,"Text","164418.00","-7156.00","1.25","0.75","201608.00","technology and engineering",1,"middle"
-322,"Torpol","30529.00","105413.00","5.80","2.80","48207.00","real estate and construction",1,"high"
-323,"Tower","719.74","-120.25","-4.02","-0.78","-141.41","real estate and construction",0,"low"
-324,"Toya","49479.00","51215.00","9.60","6.81","72633.00","communication technologies and media",1,"middle"
-325,"Trakcja","-9815.00","-20505.00","0.13","0.03","-4996.00","real estate and construction",0,"middle"
-326,"Trans Polonia","897.00","-1016.00","0.03","0.02","5043.00","transport and motorization",0,"low"
-327,"Triton","-782.00","3257.00","-0.07","-0.04","-135.00","real estate and construction",0,"low"
-328,"Ulma","309.00","1038.00","0.04","0.04","15290.00","real estate and construction",0,"high"
-329,"Ultimate Games","1638.00","612.00","0.11","0.10","2333.00","technology and engineering",0,"high"
-330,"Unfold","-305.43","1105.58","-0.25","-0.25","-234.88","financial and insurance",0,"low"
-331,"Unibep","350.65","-118530.01","0.20","0.02","51496.40","real estate and construction",1,"low"
-332,"Unimot","-10139.00","-184862.00","0.10","0.03","41795.00","chemicals and health products",0,"middle"
-333,"Urteste","-740.00","-1237.00","-0.12","-0.10","-753.00","health and life sciences",0,"high"
-334,"Vercom","45098.00","-20593.00","11.80","8.06","61575.00","technology and engineering",1,"high"
-335,"VIGO","-1713.00","-6492.00","-0.02","-0.02","3126.00","technology and engineering",0,"low"
-336,"Vivid","99.14","-107.49","-0.08","-0.03","679.97","technology and engineering",0,"low"
-337,"Votum","43555.00","44275.00","0.45","0.25","51257.00","financial and insurance",0,"high"
-338,"Voxel","46143.00","-44896.60","12.90","7.40","89215.80","health and life sciences",1,"low"
-339,"Warimpex","-3032.00","103.00","-4.30","-1.30","621.00","real estate and construction",1,"low"
-340,"Wasko","483.00","-14063.00","0.03","0.02","3660.00","technology and engineering",0,"low"
-341,"Wawel","27519.00","-47469.00","3.70","3.21","40842.00","agriculture and food industry",1,"low"
-342,"Wielton","-52335.00","-8227.00","-0.34","-0.09","-16595.00","transport and motorization",0,"low"
-343,"Wikana","824.00","-1081.00","0.28","0.15","1536.00","real estate and construction",0,"middle"
-344,"Wirtualna","-1064.00","367711.00","-0.12","-0.02","171468.00","communication technologies and media",1,"low"
-345,"Wittchen","4217.00","-8011.00","0.18","0.10","11838.00","consumer goods and e-commerce",0,"high"
-346,"Woodpecker","-305.00","-564.00","-0.03","-0.02","670.00","technology and engineering",0,"low"
-347,"X-plus","1690.00","7678.00","0.42","0.20","3372.00","technology and engineering",0,"high"
-348,"XTB","410071.00","41482.00","23.30","5.60","564007.00","financial and insurance",1,"middle"
-349,"XTPL","-7257.00","-7457.00","-0.79","-0.49","-5877.00","technology and engineering",0,"low"
-350,"YARRL","1252.00","1133.00","0.12","0.08","1445.00","technology and engineering",0,"high"
-351,"Zabka","89231.00","815843.00","5.80","0.50","1546635.00","consumer goods and e-commerce",1,"high"
-352,"Zremb-Chojnice","2517.00","340.70","0.42","0.23","1136.45","manufacturing industry",0,"high"
-353,"Zamet","-1419.00","34035.00","0.09","0.07","-3312.00","manufacturing industry",0,"middle"
-354,"Zepak","-13801.00","-94176.00","0.12","0.07","-1811.00","energy technology",0,"middle"
-355,"ZUE","5634.00","-41220.00","2.70","0.83","18077.00","real estate and construction",1,"low"
-356,"Efekt","2864.00","3042.00","2.30","1.41","7759.00","commercial services",1,"low"
-357,"Vindexus","5908.00","9001.00","0.09","0.06","9348.00","real estate and construction",0,"high"
-358,"Enelmed","6153.00","9868.00","0.11","0.04","25879.00","health and life sciences",0,"high"
-359,"Orcogroup","55892.00","-64016.00","3.70","0.85","26849.00","real estate and construction",1,"middle"
-360,"Rafamet","-4906.00","-1319.00","-1.02","-0.28","-2266.00","manufacturing industry",0,"low"
-361,"Immobile","-4040.00","-11068.00","-0.32","-0.07","15396.00","financial and insurance",0,"low"
-362,"Bogdanka","264228.00","-381064.00","8.90","6.50","408462.00","manufacturing industry",1,"high"
-363,"Hydrotor","-1461.00","158.00","-0.11","-0.07","1645.00","manufacturing industry",0,"low"
-364,"Kompap","479.00","4840.00","0.68","0.42","5001.00","manufacturing industry",1,"low"
-365,"FMG","3312.00","3435.00","0.10","0.05","4126.00","financial and insurance",0,"high"
-366,"IBSM","1130.00","-79.00","0.03","0.01","715.00","real estate and construction",0,"middle"
-367,"Ropczyce","2211.00","11659.00","0.56","0.38","16135.00","real estate and construction",1,"low"
-368,"Otmuchów","6240.00","-6986.00","0.06","0.03","11283.00","agriculture and food industry",0,"middle"
-369,"Stąporków","714.00","-743.00","0.15","0.08","1234.00","manufacturing industry",0,"middle"
-370,"Kogenera","184530.00","-7722.00","6.00","3.60","296779.00","energy technology",1,"high"
+id,name,net_income,net_cash_flow,roe,roa,ebitda,sector,cumulation,investment_rating
+1,11 bit studios,8482.91,-15400.29,3.6,3.2,29015.6,technology and engineering,1,low
+2,3R Games,-10,-370,-0.04,-0.04,-11,technology and engineering,0,low
+3,4MASS,2298.11,-692.12,0.23,0.17,4148.93,consumer goods and e-commerce,0,high
+4,ABPL,135149,28177,9.1,3.9,222478,technology and engineering,1,middle
+5,ACAutogaz,9773,1778,6.3,4.4,18660,transport and motorization,1,low
+6,Action,7711,-20798,0.08,0.05,12734,technology and engineering,0,high
+7,Adiuvo,632,99,-1.9,-0.52,408,health and life sciences,0,middle
+8,Agora,-13036,-14788,-2,-0.7,118514,communication technologies and media,1,low
+9,Agroton,-2634,-1467,-2.8,-2.7,-3488,agriculture and food industry,0,low
+10,Ailleron,658,-19889,0.22,0.09,20844,technology and engineering,0,high
+11,Airway,-1072,-1972,-4.2,-3.95,-1357,health and life sciences,0,low
+12,Alior Bank,1116540,3407050,9.7,1.12,1736206,financial and insurance,1,high
+13,AIGAMES,1602.23,-16.85,-23.7,-0.01,-354.17,technology and engineering,0,middle
+14,Allegro,296500,-259500,0.11,0.06,710500,consumer goods and e-commerce,0,middle
+15,Alta,-709,-105,-0.03,-0.03,-699,real estate and construction,0,low
+16,Altus,3108,2366,0.11,0.1,2421,financial and insurance,0,high
+17,Ambra,38559,4752,9.1,4.9,99201,agriculture and food industry,1,high
+18,Amica,-6700,-28600,0,0,18400,technology and engineering,0,low
+19,Amrest,13000,-30200,0.02,0,82300,hospitality industry,0,middle
+20,Answear,3660,-22315,-0.01,0,9915,consumer goods and e-commerce,0,middle
+21,Apator,12029,6564,0.12,0.07,34970,manufacturing industry,0,high
+22,APLISENS,8364,1151,3.8,3.4,15158,manufacturing industry,1,high
+23,APSENERGY,-1952,-1214,-1.09,-0.32,-621,manufacturing industry,0,low
+24,Archicom,-32220,-43731,0.01,0.01,-31172,real estate and construction,0,low
+25,Arctic,-58845,-55336,-4.2,-2.11,-30563,manufacturing industry,1,low
+26,Arlen,48348,45390,0.24,0.18,76217,consumer goods and e-commerce,1,middle
+27,Artifex,8543.11,-1834.67,0.28,0.23,8094.58,technology and engineering,0,high
+28,AS Silvano,2752,-8151,0.21,0.17,2165,consumer goods and e-commerce,0,middle
+29,ASMGroup,-1421,3053,0.37,0.1,1713,communication technologies and media,0,high
+30,AssecoPol,136200,-116200,0.15,0.07,682900,technology and engineering,0,high
+31,AssecoBS,50750,-38663,15.2,10.7,74423,technology and engineering,0,high
+32,Astarta,42271,-13679,8,5.66,80876,agriculture and food industry,1,high
+33,Atal,17067,-425,0.13,0.06,32319,real estate and construction,0,high
+34,Atende,1914,-43231,-0.12,-0.04,5916,technology and engineering,0,middle
+35,ATMGrupa,3290,-121,0.08,0.06,13714,communication technologies and media,0,high
+36,Atrem,10747,564,23.2,5.8,13359,real estate and construction,1,high
+37,Auto Partner,39236,20797,0.18,0.11,71038,transport and motorization,0,high
+38,Bank Handlowy,600530,5390692,6.5,0.72,1182890,financial and insurance,1,middle
+39,Bank Millennium,510746,-1100597,6.1,0.35,1092099,financial and insurance,1,low
+40,Bank Ochrony Środowiska,79721,961299,3.4,0.34,147955,financial and insurance,1,low
+41,Pekao,3286000,3663000,10.5,1.4,5093000,financial and insurance,1,high
+42,BBI Development,1158,9214,0.02,0.01,-762,real estate and construction,0,middle
+43,Benefit Systems,199610,437296,9.8,3.3,524970,commercial services,1,high
+44,Best,4381,41757,0.1,0.05,31661,real estate and construction,0,high
+45,Betacom,2046,11143,0.08,0.03,5758,technology and engineering,1,low
+46,Big Cheese Studio,300,-524,0.19,0.16,691,technology and engineering,0,middle
+47,BioPlanet,2397,-230,0.12,0.03,4000,consumer goods and e-commerce,0,high
+48,Bioceltix,-3794.06,-1060.38,-0.44,-0.39,-3636,health and life sciences,0,low
+49,Biomaxima,589,-332,0.02,0.01,1822,health and life sciences,0,high
+50,Bioton,-5808,-4224,-0.03,-0.02,5372,chemicals and health products,0,middle
+51,BNP Paribas,1475294,-2586135,9.3,0.88,2381979,financial and insurance,1,middle
+52,Boombit,10,-1669,0.03,0.02,5093,technology and engineering,0,low
+53,Boryszew,9059,-7788,0.64,0.26,121148,manufacturing industry,1,middle
+54,Bowim,-1895.35,1829.3,-0.05,-0.03,5830.08,manufacturing industry,0,middle
+55,BRAND24,1089,855,0.06,0.03,1937,technology and engineering,0,high
+56,Braster,-616,-7,12.2,-0.21,-113,health and life sciences,0,high
+57,Budimex,270483,-1143529,31.7,3.68,386149,real estate and construction,1,high
+58,Bumech,-416,7221,NULL,-1.32,12266,manufacturing industry,0,middle
+59,Capitea,11960,-35896,0.45,0.14,17719,real estate and construction,0,high
+60,Captorx,-10719,-22633,-0.73,-0.51,-9490,health and life sciences,0,low
+61,Caspar,773,72,0.06,0.05,1706,financial and insurance,0,high
+62,Cavatina,150,-112,0.01,0,3625,real estate and construction,0,middle
+63,CCC,956900,194700,0.71,0.12,1634700,consumer goods and e-commerce,1,middle
+64,CD Project,154956,22088,5.4,4.9,201298,technology and engineering,1,high
+65,CDRL,-1922,-15038,2.1,1,1870,consumer goods and e-commerce,1,middle
+66,Celon Pharma,-25086,-3481,-0.1,-0.08,-5501,chemicals and health products,0,low
+67,CEZ,16653000,30256000,7.2,1.9,75817000,energy technology,1,high
+68,CFI,2096,-2447,0.02,0.01,10009,hospitality industry,0,low
+69,CI Games,1001,911,-0.04,-0.02,8125,technology and engineering,0,middle
+70,CityServ,4287,-463,15.6,4.6,5441,commercial services,1,middle
+71,CCEnergy,-54,-265,-0.02,-0.01,-54,real estate and construction,0,low
+72,Cloud,66.29,1928.92,0.13,0.11,4439.29,technology and engineering,0,high
+73,Cognor,-13982,-78764,-0.06,-0.03,6010,manufacturing industry,0,low
+74,Columbus,-17175,-6895,NULL,-0.06,-3293,energy technology,0,low
+75,Comp,35600,-173655,7.6,4.4,72138,technology and engineering,1,middle
+76,Comperia,-1568,-2037,-0.35,-0.24,-530,communication technologies and media,0,low
+77,Compremum,-11742,-234,-0.29,-0.13,-3916,real estate and construction,0,low
+78,CPD,-112,111,NULL,-8.43,-100,real estate and construction,0,low
+79,CPI Europe,52527,88233,0.03,0.01,90693,real estate and construction,0,middle
+80,Creepy Jar,4997.83,7859.07,0.17,0.16,5159.83,technology and engineering,0,high
+81,Creotech,1404,74270,-0.17,-0.09,4529,technology and engineering,0,middle
+82,Cyber-Folks,13346,45104,0.31,0.15,56846,technology and engineering,0,high
+83,Cyfrowy Polsat,195500,-280400,1.2,0.52,1854000,communication technologies and media,1,middle
+84,Czerwona Torebka,-2889,2980,-0.11,-0.06,-497,real estate and construction,0,low
+85,Dadelo,16972,-11119,12.6,5.6,26827,consumer goods and e-commerce,1,middle
+86,Datawalk,-51306,31068,NULL,-42,-58578,technology and engineering,1,low
+87,DB Energy,160.06,1271.67,0.62,0.22,2609.82,energy technology,1,low
+88,Decora,38707,-2248,11.1,7.4,61759,real estate and construction,1,high
+89,Dekpol,30417,7189,0.17,0.06,51022,real estate and construction,0,high
+90,Develia,65278,-129142,0.22,0.08,47515,real estate and construction,0,high
+91,DGA,568,400,-0.1,-0.06,-791,commercial services,0,middle
+92,Diagnostyka,72859,-7047,14.8,6.3,159313,health and life sciences,0,high
+93,Digitanet,4682.95,6831.63,0.55,0.32,8558.42,communication technologies and media,0,high
+94,Digitree,-1335.43,-1809.77,-0.32,-0.16,-142.49,technology and engineering,0,low
+95,Dino,708769,-395085,9.1,5.3,1182759,consumer goods and e-commerce,1,high
+96,Dom Development,245650,374795,14,4.1,315841,real estate and construction,1,high
+97,DMGroup,7447,-9106,0.15,0.09,13892,chemicals and health products,0,high
+98,DragoEnt,233.22,-1378.42,0.24,0.2,353.93,technology and engineering,0,middle
+99,ECB,1321,3029,0.56,0.36,2018,energy technology,0,high
+100,Echo Investment,-85442,-183473,-0.05,-0.02,-61419,real estate and construction,0,low
+101,EdInvest,-279,233,0.03,0.02,-42,real estate and construction,0,middle
+102,Elektrotim,4276,-21148,0.29,0.15,6924,real estate and construction,0,high
+103,Elkop,9469,-198,0.28,0.23,7954,real estate and construction,1,middle
+104,Enea,1051428,655958,0.06,0.03,1940783,energy technology,0,high
+105,Estar,519102,112935,0.16,0.14,-362038,energy technology,1,middle
+106,Energa,848000,660,6.7,2.4,2171000,energy technology,1,high
+107,Enap,1515,211,0.17,0.12,1872,real estate and construction,0,high
+108,Energoinstal,-2454,-1746,-0.21,-0.07,-1721,real estate and construction,0,low
+109,Enter Air,27090,-103150,0.44,0.06,40151,transport and motorization,0,middle
+110,Equnico,1189,-1542,0.04,0.03,4274,real estate and construction,0,high
+111,Erbud,-13152,-102000,-0.07,-0.02,2813,real estate and construction,0,low
+112,ERG,-572,-184,-0.04,-0.02,812,manufacturing industry,0,low
+113,Esotiq&Henderson,-74,-1180,0.16,0.06,4583,consumer goods and e-commerce,0,middle
+114,Eurocash,-99033.38,152177.35,-16.2,-1.2,350615.33,consumer goods and e-commerce,1,middle
+115,Eurohold,71885,66975,21.8,2.5,216860,financial and insurance,1,middle
+116,EUCO,321,-255,NULL,0.81,448,financial and insurance,0,middle
+117,Eurotel,4579,-32827,0.16,0.07,9046,technology and engineering,0,high
+118,Fabrity,1667,-7835,5.9,4,3307,technology and engineering,1,low
+119,Fabryka Farb Sniezka,10603,-27824,0.19,0.09,26634,real estate and construction,0,high
+120,Forte,50190,83824,0.05,0.03,127314,consumer goods and e-commerce,1,middle
+121,Fasing,-116.75,-1817.86,0.06,0.04,9406.38,manufacturing industry,0,middle
+122,Feerum,1296,-805,-0.01,-0.01,2905,manufacturing industry,0,middle
+123,Ferro,20044,-54901,0.17,0.1,28760,real estate and construction,0,high
+124,FON,325,-11,5,3.7,421,financial and insurance,1,low
+125,Games Operators,812,7,0.52,0.43,1737,technology and engineering,0,high
+126,Gaming Factory,-547,-1815,-0.51,-0.4,148,technology and engineering,0,low
+127,GENOMTEC,-3205,7142,-1.16,-0.59,-2501,health and life sciences,0,low
+128,GETIN,176447,9656,1.15,0.22,2699,financial and insurance,0,high
+129,GI Group,-6209.96,-10211.88,NULL,0,-3730.77,commercial services,0,low
+130,GPW,108177,187239,10.4,7.5,117074,financial and insurance,1,middle
+131,Global Trade Centre,-4000,102200,-0.08,-0.03,170300,real estate and construction,1,middle
+132,Gobarto,13936,-22477,2.3,0.92,60766,agriculture and food industry,1,low
+133,Grenevia,142000,18000,6.4,3.4,323000,manufacturing industry,1,high
+134,Grodno,-22879,-1794,-0.17,-0.05,-7022,manufacturing industry,1,low
+135,Grupa Azoty,-288174,-39948,-0.19,-0.04,-6923,chemicals and health products,0,low
+136,Grupa Azoty Zakłady Azotowe Puławy,-88075,550,-0.1,-0.05,1149,chemicals and health products,0,low
+137,Grupa Azoty Zakłady Chemiczne Police,-65729,-2576,-0.11,-0.02,170,chemicals and health products,0,low
+138,Grupa Kęty,290000,-10000,17,6.6,523000,manufacturing industry,1,high
+139,Grupa Pracuj,119515,109695,29.6,10.5,185151,technology and engineering,1,high
+140,Harper,3385.1,-430.1,0.1,0.02,5362.8,chemicals and health products,0,high
+141,Helio,15369,-1134,9.2,5.3,28752,agriculture and food industry,1,middle
+142,Herkules,-2400,2240,-0.08,-0.03,1952,real estate and construction,0,low
+143,Huuuge,19813,21920,0.4,0.34,24728,technology and engineering,0,high
+144,IDM,113.21,462.44,NULL,0.42,-235.51,financial and insurance,0,middle
+145,IFirma,7573,924,44.6,26.8,9222,technology and engineering,1,middle
+146,IMCompany,51577,-32226,25.5,14.4,64696,agriculture and food industry,1,high
+147,Imperio,315,-125,0.08,0.07,-108,financial and insurance,0,middle
+148,IMS,1029,-1871,0.2,0.11,3023,communication technologies and media,0,high
+149,INC,2737,-6235,-0.03,-0.02,605,financial and insurance,0,middle
+150,ING Bank Śląski,2149000,467000,12.2,0.76,3314000,financial and insurance,1,high
+151,Inpro,6255,10454,0.1,0.06,10917,real estate and construction,0,high
+152,Instal,10941.65,-4943.95,0.12,0.08,14841.85,real estate and construction,0,high
+153,InterCars,157675,62383,0.15,0.07,309496,transport and motorization,0,high
+154,Interbud,256.08,1055.35,-0.25,-0.09,489.88,real estate and construction,0,low
+155,Intersport,-49961,-380,NULL,-0.26,-10851,consumer goods and e-commerce,1,low
+156,Introl,4424,-2169,2.5,0.91,21053,manufacturing industry,1,middle
+157,IFSA,47,7,3.2,3.1,-6,financial and insurance,1,low
+158,Ipopema,-256,5448,0.07,0.02,293,financial and insurance,0,middle
+159,Izoblok,-6300.24,-3676.47,-0.04,-0.01,-1318.49,manufacturing industry,0,low
+160,Izolacja-Jarocin,192,-563,0.08,0.06,359,real estate and construction,0,middle
+161,Izostal,8266,-18588,3.1,1.1,25356,real estate and construction,1,low
+162,JSW,-1363500,-115900,-0.76,-0.37,-1226800,manufacturing industry,0,low
+163,JRH,12282.09,-904.56,-0.18,-0.13,15982.57,financial and insurance,0,middle
+164,JWW,167,-6621,0.13,0.06,1165,manufacturing industry,0,middle
+165,KCI,-3405,-923,-0.04,-0.04,-2668,communication technologies and media,0,low
+166,Kernel,217906,-261052,10.6,6.6,397667,agriculture and food industry,1,high
+167,KGHM,579000,-349000,1.8,1,2150000,manufacturing industry,1,high
+168,KGL,-479,-1642,-0.06,-0.02,9046,chemicals and health products,0,middle
+169,Komputronik,-15918,-14761,-0.06,-0.03,11083,technology and engineering,1,low
+170,KPPD,-10001,2547,-10,-5.6,1417,manufacturing industry,1,low
+171,Krakchemia,-2587,-54,NULL,-0.73,-738,chemicals and health products,0,middle
+172,KRKA,245844,188764,9.9,7.8,303254,chemicals and health products,1,high
+173,Kruk,584018,51340,12.3,4.8,835227,real estate and construction,1,high
+174,Krynica Vitamin,924,-167,0.16,0.06,4403,agriculture and food industry,0,middle
+175,KSG Argo,157,-271,3.1,0.5,1040,agriculture and food industry,1,low
+176,LARQ,2294.23,-151.38,-0.1,-0.08,-97.53,communication technologies and media,0,middle
+177,LC,126,-932,0.06,0.04,232,manufacturing industry,0,middle
+178,Lena Lighting,95,-416,0.02,0.02,2005,manufacturing industry,0,middle
+179,Lentex,7680,-11702,3.1,1.7,17177,commercial services,1,middle
+180,Less,-415,147,NULL,-0.38,-292,consumer goods and e-commerce,0,low
+181,Libet,-3641.39,-4452.48,-3.4,-2.7,1801.8,real estate and construction,1,low
+182,Lokum,33157,66204,0.09,0.06,45099,real estate and construction,0,high
+183,LPP,1747000,-226000,0.35,0.11,4104000,consumer goods and e-commerce,1,middle
+184,LSISoft,2586,1742,0.14,0.1,4450,technology and engineering,0,high
+185,Lubawa,11620,-119160,0.23,0.15,16181,chemicals and health products,0,high
+186,M.W. Trade,-752,1430,-0.13,-0.12,-800,financial and insurance,0,low
+187,Mabion,-15255,-14760,-0.32,-0.22,-11681,chemicals and health products,0,low
+188,Magna Polonia,599,586,0.01,0.01,677,financial and insurance,0,high
+189,Makarony Polskie,7622,-3372,0.19,0.13,13098,agriculture and food industry,0,high
+190,Mangata,7881,2509,0.04,0.02,23603,manufacturing industry,0,high
+191,Manydev,-132,-56,NULL,-3.34,-49,technology and engineering,0,low
+192,MBWS,9645,10927,0.05,0.03,14393,agriculture and food industry,1,low
+193,Marvipol,22492,-24988,3.2,1.51,44760,real estate and construction,1,middle
+194,Maxcom,-1968,-527,-0.07,-0.04,-1603,technology and engineering,0,low
+195,MBank,1665061,-15872341,8.5,0.65,3122738,financial and insurance,1,middle
+196,MCI Capital,34455,-7552,1.7,1.4,52441,financial and insurance,1,low
+197,MDIEnergia,169,-1916,-0.2,-0.04,343,real estate and construction,0,low
+198,Medicalg,-4199,67,-0.2,-0.15,-3100,health and life sciences,0,middle
+199,Medinice,-1083,-2879,0.74,0.68,-1062,health and life sciences,0,high
+200,Megaron,443,-493,0.05,0.03,1325,real estate and construction,0,middle
+201,Mennica Polska,75816,64471,10.7,4.9,90717,manufacturing industry,1,high
+202,Mercator,29811,1989,0.08,0.07,5382,health and life sciences,0,high
+203,Mercor,16148,4299,0.07,0.04,39122,real estate and construction,1,middle
+204,MEXPolska,-1004.43,-159.46,0.07,0.02,2240.57,hospitality industry,0,middle
+205,MFO,3481,-13343,0.02,0.01,8412,real estate and construction,0,middle
+206,Miraculum,-165.62,-100.76,-0.6,-0.3,1072.05,chemicals and health products,1,low
+207,Mirbud,36120,-279379,3.2,1.4,71818,real estate and construction,1,middle
+208,MLSystem,-17353,-2385,-0.38,-0.13,-7967,energy technology,0,low
+209,MLP Group,79165,-387228,2.8,1.2,167124,real estate and construction,1,middle
+210,Mobruk,26395.24,-3805.94,11.7,5.4,51958.99,energy technology,1,middle
+211,MOJ,1099,1270,0.08,0.04,1868,manufacturing industry,0,high
+212,MOL,190419000,-65962000,4.6,3.1,533909000,chemicals and health products,1,high
+213,Molecure,-5184.73,22469.49,-0.32,-0.29,-4770.91,health and life sciences,0,low
+214,Monnari,1108,-26600,0.07,0.06,3954,consumer goods and e-commerce,0,low
+215,Mostostal Płock,1039,-3202,5.4,1.1,3279,real estate and construction,1,low
+216,Mostostal Warszawa,423,-102735,-0.27,-0.02,23161,real estate and construction,0,low
+217,Mostostal Zabrze,9185,-30309,0.17,0.08,16758,real estate and construction,0,high
+218,Movie Games,-2976,-1579,-0.05,-0.04,2385,technology and engineering,0,low
+219,Murapol,68605,-17168,0.4,0.11,86438,real estate and construction,0,high
+220,Muza,41,-445,0.08,0.05,1458,communication technologies and media,0,low
+221,NanoGroup,-1807,-3227,-0.56,-0.36,-1895,health and life sciences,0,low
+222,Neptis,1862.15,3422.62,48.2,6.9,2577.74,technology and engineering,1,middle
+223,Neuca,68214,23041,6.5,1.2,185143,chemicals and health products,1,middle
+224,NTCapital,-97.04,183.14,0.1,0.07,-97.04,financial and insurance,0,middle
+225,Newag,52297,-18472,0.19,0.09,81179,transport and motorization,0,high
+226,Nexity,-94.09,1.89,NULL,-1.92,-67.39,commercial services,0,middle
+227,Noctiluca,-1401.19,2686.35,NULL,-1.37,-1222.5,technology and engineering,0,low
+228,Novavis,-765,471,-0.62,-0.13,-938,energy technology,0,low
+229,Novita,4827,-2376,0.18,0.13,6989,commercial services,0,high
+230,NPL,312.61,-873.27,-0.03,-0.01,-41.9,real estate and construction,0,low
+231,NTTSystem,5803,10205,0.1,0.05,6468,technology and engineering,0,high
+232,Octava,-2890,79,-0.22,-0.14,-2527,real estate and construction,0,low
+233,Odlewanie Polskie,3731,7870,0.08,0.06,7552,manufacturing industry,0,high
+234,Onde,-5621,-57331,0.02,0.01,-1171,energy technology,0,low
+235,Onesano,-2121,-3186,-28,-18.7,-1961,health and life sciences,1,low
+236,Oponeo.pl,23974,-8349,10.9,2.21,55744,consumer goods and e-commerce,1,middle
+237,Opteam,-2904.96,-2895.05,-0.29,-0.19,-1482.95,technology and engineering,0,low
+238,Orange Polska,465000,103000,3.5,1.7,2043000,communication technologies and media,1,high
+239,Orlen,5846000,14633000,4,2.2,17008000,chemicals and health products,1,high
+240,Orzeł Biały,27178,-26832,0.16,0.14,26405,energy technology,0,high
+241,OT Logistics,-10857,446,-0.12,-0.03,6580,transport and motorization,0,low
+242,Panova,6521,-3873,0.05,0.03,12779,real estate and construction,0,high
+243,Pamapol,-8376,-4279,-0.12,-0.03,3251,agriculture and food industry,0,low
+244,Passus,-555,-1598,0.8,0.28,-203,technology and engineering,0,middle
+245,Patentus,13544,-2513,8,6.4,16277,manufacturing industry,1,middle
+246,PBG,-80478,-585,NULL,-8.62,-69044,real estate and construction,0,low
+247,PBS,-121,282,-0.05,-0.03,-136,financial and insurance,0,low
+248,PCC Exol,20801,-13239,4.2,2.1,43291,chemicals and health products,1,low
+249,PCC Rokita,8233,-76036,0.63,0.35,117637,chemicals and health products,1,low
+250,PCF Group,-3749,-24110,-0.52,-0.4,1680,technology and engineering,0,low
+251,Pepco,-151447,-30350,-46.7,-4.3,452106,consumer goods and e-commerce,1,low
+252,PGE,2416000,1252000,-0.03,-0.01,4310000,energy technology,0,middle
+253,Pharmenia,-1189,-1536,-10.6,-9.8,-1481,chemicals and health products,1,low
+254,Photon Energy,-6942,-4560,-12,-2.6,3877,energy technology,1,low
+255,PJP Makrum,2656,-9430,1.62,0.65,11051,real estate and construction,1,low
+256,PKP Cargo,-48600,-29500,-1.22,-0.32,74700,transport and motorization,0,low
+257,Playway,31230,11738,0.41,0.35,43668,technology and engineering,0,high
+258,Plaza,-3492,-366,NULL,NULL,9,real estate and construction,1,low
+259,PolEnergia,-39809,-221771,-0.9,-0.5,220636,energy technology,1,low
+260,Polimex,76894,50207,11.5,2.7,129420,real estate and construction,1,high
+261,PHN,185600,164800,0.01,0.01,104000,real estate and construction,0,middle
+262,Poltreg,-5471,-4958,-0.28,-0.19,-4280,health and life sciences,0,low
+263,Polwax,-3949,-28186,-0.41,-0.18,-3311,chemicals and health products,0,low
+264,PKO BP,5130000,1481000,9.9,0.94,8344000,financial and insurance,1,high
+265,PZU,3230000,8018000,10.11,0.62,10188000,financial and insurance,1,high
+266,Pekabex,2171,-54877,0.06,0.02,13370,real estate and construction,0,high
+267,Prochem,-5738,-3211,-0.57,-0.22,-2648,real estate and construction,0,low
+268,Protektor,-681,-108,-0.4,-0.15,1579,consumer goods and e-commerce,0,low
+269,Pepees,564,-21133,-0.06,-0.03,6252,agriculture and food industry,0,low
+270,Pure,-1338,-87,NULL,-1.7,-746,health and life sciences,0,middle
+271,PZ Cormay,580,-1432,-0.09,-0.05,1476,chemicals and health products,0,middle
+272,QNA Technology,-2386.04,8639.85,-1.17,-0.77,-2311.64,technology and engineering,0,low
+273,Quantum,750,-1304,0.31,0.21,1212,technology and engineering,0,middle
+274,Quercus,21870,13302,28,11.5,26880,financial and insurance,1,middle
+275,Raen,-753,-32,-0.81,-0.45,-952,energy technology,0,low
+276,Rainbow,59525,22407,0.75,0.24,75636,hospitality industry,0,high
+277,Rank,-5476,-1607,-0.04,-0.02,-6147,real estate and construction,0,low
+278,Rawlplug,-4280,-3761,-0.66,0.28,51930,manufacturing industry,1,low
+279,Redan,-142,-87,NULL,NULL,-168,consumer goods and e-commerce,0,low
+280,Reino,38.71,-243.14,-0.38,-0.21,538.94,financial and insurance,0,low
+281,Relpol,-2353,-353,-2.5,-1.8,665,manufacturing industry,1,low
+282,Remak,688,1414,0.91,0.4,3846,real estate and construction,1,low
+283,Render,1475.58,2476.27,0.15,0.14,3500.8,technology and engineering,0,high
+284,RYVU,-25276,-8337,-0.7,-0.31,-25335,health and life sciences,0,low
+285,Sanok Rubber,19662,62543,3.6,1.5,71762,transport and motorization,1,low
+286,Santander Bank,2751594,-7477361,8,0.9,4761480,financial and insurance,1,middle
+287,Sanwil,1403,-7167,0,0,-88,consumer goods and e-commerce,0,low
+288,Satis,-60,-1,NULL,-120.42,-91,technology and engineering,0,low
+289,Scope,-10999,-13310,0.63,0.51,-9987,health and life sciences,0,middle
+290,Seco Group,5542,-60373,0.09,0.04,13712,manufacturing industry,0,high
+291,Seko,2999,2894,3.2,2.3,6842,agriculture and food industry,1,low
+292,Selena FM,19565,5978,0.12,0.06,40234,real estate and construction,0,high
+293,Selvita,-986,-6985,-0.02,-0.01,14128,health and life sciences,0,high
+294,Serinus,-894,-483,-0.53,-0.14,-146,manufacturing industry,0,low
+295,Sfinks,-2019,-461,NULL,-0.07,1667,hospitality industry,0,low
+296,Shoper,19103,-4516,28.7,12.9,34873,technology and engineering,1,high
+297,Silvair,171,67,-0.02,-0.01,716,technology and engineering,0,low
+298,Simfabric,841,1816,-0.03,-0.02,2907,technology and engineering,0,middle
+299,Skarbiec Holding,61701,466717,0.29,0.08,59624,financial and insurance,1,low
+300,Skyline,-148,-241,0,0,-314,financial and insurance,0,low
+301,Soho Development,-1127,1822,9.8,9.4,-1378,real estate and construction,1,middle
+302,Sonel,4195,13163,0.2,0.14,8451,manufacturing industry,0,high
+303,Sopharma D,70397,-1082,7.9,3.6,106147,chemicals and health products,1,middle
+304,Spyrosoft,16968,1082,12.4,6.3,29599,technology and engineering,1,middle
+305,Stalexport,48138,-12581,7.2,4.1,109775,transport and motorization,1,middle
+306,Stalprodukt,-24324,-141426,0.67,0.5,68860,manufacturing industry,1,low
+307,Stalprofit,3731,-9017,0.75,0.3,27595,manufacturing industry,1,low
+308,Starhedge,73,211,-0.31,-0.23,113,financial and insurance,0,low
+309,Sunex,-7241.46,592,-0.19,-0.06,-3815.95,manufacturing industry,0,low
+310,Sygnity,30634,18124,9.8,7.2,43760,technology and engineering,1,high
+311,Synektik,71272.24,-38948.84,37.3,17.8,122944.88,health and life sciences,1,high
+312,Synthaverse,-538,-757,0.06,0.03,3364,chemicals and health products,0,high
+313,TBULL,-629.96,4.43,-0.75,-0.47,-552.4,technology and engineering,0,low
+314,Talex,-922,-4696,1.9,1.05,905,technology and engineering,1,low
+315,Tarczyński,29304,229,0.17,0.06,65163,agriculture and food industry,0,high
+316,Tauron,1130000,1035000,0.07,0.03,2365000,energy technology,0,high
+317,TSGames,47442.93,-61813.72,24.9,14.1,60566.91,technology and engineering,1,high
+318,Tenderhut,287,-1278,-0.18,-0.12,700,technology and engineering,0,low
+319,Termo-rex,450,1691,0.07,0.06,336,chemicals and health products,0,high
+320,Tesgas,-5126,-12518,6.2,4.4,-3592,real estate and construction,1,middle
+321,Text,164418,-7156,1.25,0.75,201608,technology and engineering,1,middle
+322,Torpol,30529,105413,5.8,2.8,48207,real estate and construction,1,high
+323,Tower,719.74,-120.25,-4.02,-0.78,-141.41,real estate and construction,0,low
+324,Toya,49479,51215,9.6,6.81,72633,communication technologies and media,1,middle
+325,Trakcja,-9815,-20505,0.13,0.03,-4996,real estate and construction,0,middle
+326,Trans Polonia,897,-1016,0.03,0.02,5043,transport and motorization,0,low
+327,Triton,-782,3257,-0.07,-0.04,-135,real estate and construction,0,low
+328,Ulma,309,1038,0.04,0.04,15290,real estate and construction,0,high
+329,Ultimate Games,1638,612,0.11,0.1,2333,technology and engineering,0,high
+330,Unfold,-305.43,1105.58,-0.25,-0.25,-234.88,financial and insurance,0,low
+331,Unibep,350.65,-118530.01,0.2,0.02,51496.4,real estate and construction,1,low
+332,Unimot,-10139,-184862,0.1,0.03,41795,chemicals and health products,0,middle
+333,Urteste,-740,-1237,-0.12,-0.1,-753,health and life sciences,0,high
+334,Vercom,45098,-20593,11.8,8.06,61575,technology and engineering,1,high
+335,VIGO,-1713,-6492,-0.02,-0.02,3126,technology and engineering,0,low
+336,Vivid,99.14,-107.49,-0.08,-0.03,679.97,technology and engineering,0,low
+337,Votum,43555,44275,0.45,0.25,51257,financial and insurance,0,high
+338,Voxel,46143,-44896.6,12.9,7.4,89215.8,health and life sciences,1,low
+339,Warimpex,-3032,103,-4.3,-1.3,621,real estate and construction,1,low
+340,Wasko,483,-14063,0.03,0.02,3660,technology and engineering,0,low
+341,Wawel,27519,-47469,3.7,3.21,40842,agriculture and food industry,1,low
+342,Wielton,-52335,-8227,-0.34,-0.09,-16595,transport and motorization,0,low
+343,Wikana,824,-1081,0.28,0.15,1536,real estate and construction,0,middle
+344,Wirtualna,-1064,367711,-0.12,-0.02,171468,communication technologies and media,1,low
+345,Wittchen,4217,-8011,0.18,0.1,11838,consumer goods and e-commerce,0,high
+346,Woodpecker,-305,-564,-0.03,-0.02,670,technology and engineering,0,low
+347,X-plus,1690,7678,0.42,0.2,3372,technology and engineering,0,high
+348,XTB,410071,41482,23.3,5.6,564007,financial and insurance,1,middle
+349,XTPL,-7257,-7457,-0.79,-0.49,-5877,technology and engineering,0,low
+350,YARRL,1252,1133,0.12,0.08,1445,technology and engineering,0,high
+351,Zabka,89231,815843,5.8,0.5,1546635,consumer goods and e-commerce,1,high
+352,Zremb-Chojnice,2517,340.7,0.42,0.23,1136.45,manufacturing industry,0,high
+353,Zamet,-1419,34035,0.09,0.07,-3312,manufacturing industry,0,middle
+354,Zepak,-13801,-94176,0.12,0.07,-1811,energy technology,0,middle
+355,ZUE,5634,-41220,2.7,0.83,18077,real estate and construction,1,low
+356,Efekt,2864,3042,2.3,1.41,7759,commercial services,1,low
+357,Vindexus,5908,9001,0.09,0.06,9348,real estate and construction,0,high
+358,Enelmed,6153,9868,0.11,0.04,25879,health and life sciences,0,high
+359,Orcogroup,55892,-64016,3.7,0.85,26849,real estate and construction,1,middle
+360,Rafamet,-4906,-1319,-1.02,-0.28,-2266,manufacturing industry,0,low
+361,Immobile,-4040,-11068,-0.32,-0.07,15396,financial and insurance,0,low
+362,Bogdanka,264228,-381064,8.9,6.5,408462,manufacturing industry,1,high
+363,Hydrotor,-1461,158,-0.11,-0.07,1645,manufacturing industry,0,low
+364,Kompap,479,4840,0.68,0.42,5001,manufacturing industry,1,low
+365,FMG,3312,3435,0.1,0.05,4126,financial and insurance,0,high
+366,IBSM,1130,-79,0.03,0.01,715,real estate and construction,0,middle
+367,Ropczyce,2211,11659,0.56,0.38,16135,real estate and construction,1,low
+368,Otmuchów,6240,-6986,0.06,0.03,11283,agriculture and food industry,0,middle
+369,Stąporków,714,-743,0.15,0.08,1234,manufacturing industry,0,middle
+370,Kogenera,184530,-7722,6,3.6,296779,energy technology,1,high
