@@ -1,8 +1,8 @@
 services: 
   api_model:
     build: .
-    image: polish-equity-analytics_api:latest
-    container_name: polish-equity-analytics_container
+    image: pqa_api:latest
+    container_name: pqa_container
     ports: 
       - "8000:8000"
     restart: always
