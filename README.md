@@ -31,8 +31,8 @@ To run this project locally, you can use either Docker (recommended) or a standa
   uvicorn src.main:app --host 0.0.0.0 --port 8000
 
 ## Repository Structure
-- `data/` - raw and labeled datasets (see `data/README.md`)
-- `ETL/` - SQL scripts 
+- `data/` - raw, labeled and preprocessed datasets (see `data/README.md`)
+- `ETL/` - responsible for data extraction, joining financial tables, and initial cleaning before the machine learning phase.
 - `notebooks/` - Jupyter notebooks for preprocessing and modeling experiments
 - `src/` - Python scripts for preprocessing data and training the final ML model
 - `reports/` – Power BI dashboards and related analytics outputs
