@@ -137,7 +137,7 @@ It requires a number of further actions, primarily related to:
 2. Expanding the dataset by including more companies, which would enhance the system’s applicability to international financial markets.
 3. Further exploration of ensemble methods: While Random Forest performed best in this iteration, further tuning of its hyperparameters and testing other bagging-based classifiers could stabilize the results even more.
 4. Within ensemble methods, boosting algorithms—including adaptive boosting (AdaBoost) and gradient boosting (XGBoost) - are also worth testing. A related implementation of the same problem using LightGBM within the ML.NET ecosystem is available here:
-https://github.com/JakubDadello/Polish-Equity-Analytics.git
+https://github.com/JakubDadello/Polish-Equity-Analytics-.NET-LightGBM-Predictor.git
 5. With an increase in model structural complexity, deep learning approaches, such as the previously applied perceptron neural network, might achieve even greater effectiveness.
 
 The project aimed to create a classification system that automatically evaluates a company’s investment attractiveness. This objective was largely met.
