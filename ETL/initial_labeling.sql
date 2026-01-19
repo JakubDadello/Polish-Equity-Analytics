@@ -45,7 +45,7 @@ SELECT
         WHEN s.score <= 1 THEN 'low' 
         WHEN s.score <= 3 THEN 'medium' 
         ELSE 'high' 
-    END AS investment_level
+    END AS investment_rating
 FROM raw_data r
 LEFT JOIN scores s 
 ON r.id = s.id;
