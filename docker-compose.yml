@@ -7,4 +7,6 @@ services:
       - "8000:8000"
     restart: always
     environment:
+      - DOTNET_ENVIRONMENT=Production
       - APP_ENV=production
+    
