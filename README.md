@@ -37,6 +37,7 @@ To run this project locally, you can use either Docker (recommended) or a standa
 - `src/` - Python scripts for preprocessing data and training the final ML model
 - `reports/` – Power BI dashboards and related analytics outputs
 - `CRISP-DM.md` - detailed methodology workflow
+- `airflow/` – optional workflow automation layer used for scheduling, orchestrating, and automating data processing and model training pipelines.
 
 ## Tech Stack
 
