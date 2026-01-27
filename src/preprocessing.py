@@ -1,3 +1,4 @@
+# --- Import necessary packages and modules from scikit-learn library ---
 from sklearn.impute import SimpleImputer
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
