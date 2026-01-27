@@ -13,5 +13,5 @@ async def classify (item: Model_Request):
    output = model.predict(input)[0]
 
    return {
-      "investment_level": output
+      "investment_rating": output
    }
