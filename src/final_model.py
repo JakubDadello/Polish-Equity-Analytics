@@ -54,7 +54,6 @@ def train_model():
     # --- split data ---
     X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.20, random_state=42)
 
-
     # --- flatten y to avoid DataConversionWarning ---
     Y_train = Y_train.values.ravel()
     Y_test = Y_test.values.ravel()
