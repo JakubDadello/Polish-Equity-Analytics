@@ -1,6 +1,6 @@
 -- ==================================================================
 -- initial_labeling.sql
--- Purpose: Generate investment level labels (low/medium/high) 
+-- Purpose: Generate investment rating labels (low/medium/high) 
 --          for companies based on sector-level median financial indicators.
 -- Input: raw_data table (imported from raw_data.csv)
 -- Output: initial_labeling_data table
