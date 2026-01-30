@@ -1,10 +1,18 @@
+import os
 import pandas as pd
 from sqlalchemy import create_engine
 
 def get_engine():
     # --- Create a SQLAlchemy engine for database connection ---
-    db_url="postgresql+psycopg2://airflow:airflow@postgres:5432/airflow"
+    db_url = os.getenv("PROJECT_DB")
+    if not db_url:
+        raise ValueError(f"Environment variable {db_url} not found")
     return create_engine(db_url)
+
+def load_csv_to_db (csv_path: str, table_name: str = "raw_data"):
+    engine = get_engine()
+    df = pd.read_csv(csv_path)
+    df.to_sql(table_name, engine, if_exists='replace', index=False)
 
 def load_data(query: str) -> pd.DataFrame:
     """
