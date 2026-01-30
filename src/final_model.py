@@ -29,12 +29,7 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-
-# --- Define path to save trained model ---
-MODEL_PATH = "../models/pipeline_rf.joblib"
-
-
-def train_model():
+def train_model(MODEL_PATH: str):
 
     if os.path.exists(MODEL_PATH):
         logging.info(f"Model already exists")
