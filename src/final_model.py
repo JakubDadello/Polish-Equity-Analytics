@@ -97,8 +97,3 @@ def train_model(MODEL_PATH: str):
 # --- Execute the script ---
 if __name__ == "__main__":
     train_model()
-
-
-
-        
-    
