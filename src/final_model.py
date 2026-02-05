@@ -22,7 +22,6 @@ import mlflow
 import mlflow.sklearn
 import joblib  # Model persistence
 
-
 # --- Logging configuration ---
 logging.basicConfig(
     level = logging.INFO,
