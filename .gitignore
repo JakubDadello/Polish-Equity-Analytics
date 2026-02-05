@@ -1,0 +1,42 @@
+# -------------------------
+#  SECRETS / ENV VARIABLES
+# -------------------------
+.env
+*.env
+!example.env   
+
+# -------------------------
+#  AIRFLOW DIRECTORIES
+# -------------------------
+airflow/logs/
+airflow/logs/*
+airflow/logs/**
+
+# Airflow SQLite DB 
+airflow/airflow.db
+
+# Airflow PID files
+airflow/*.pid
+
+# -------------------------
+#  DOCKER
+# -------------------------
+docker-volume/
+docker-data/
+
+# -------------------------
+#  PYTHON
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+
+# -------------------------
+#  SYSTEM FILES
+# -------------------------
+.DS_Store
+Thumbs.db
