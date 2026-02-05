@@ -3,13 +3,14 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 def get_engine():
-    # --- Create a SQLAlchemy engine for database connection ---
+    # --- Initializes SQLAlchemy engine using environment variables --- 
     db_url = os.getenv("PROJECT_DB")
     if not db_url:
         raise ValueError(f"Environment variable {db_url} not found")
     return create_engine(db_url)
 
 def load_csv_to_db (csv_path: str, table_name: str = "raw_data"):
+    # --- Reads CSV from path and performs a bulk insert into the database --- 
     engine = get_engine()
     df = pd.read_csv(csv_path)
     df.to_sql(table_name, engine, if_exists='replace', index=False)
