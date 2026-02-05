@@ -16,8 +16,9 @@ default_args = {
     "retries": 1
 }
 
-### --- Task Definitions (Modular Python Callables) ---
-
+# ===================================================================
+# --- Task Definitions (Modular Python Callables) ---
+# ===================================================================
 def task_load_csv():
     csv_path = os.getenv("CSV_PATH")
     load_csv_to_db(csv_path)
@@ -37,9 +38,9 @@ def task_train_model():
 def task_feature_importance():
     get_feature_importance("/opt/airflow/models/pipeline_rf.joblib")
 
-
-### --- DAG Configuration ---
-
+# ===================================================================
+# --- DAG Configuration ---
+# ===================================================================
 with DAG(
     "airflow_pipeline",
     default_args=default_args,
