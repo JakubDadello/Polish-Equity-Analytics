@@ -5,15 +5,18 @@ from airflow.operators.python import PythonOperator
 from datetime import datetime
 from sqlalchemy import create_engine, text
 
+# --- Decoupling business logic from orchestration by importing from src ---
 from src.db_utils import load_csv_to_db
 from src.final_model import train_model
 from src.feature_importance import get_feature_importance
 
-
+# --- Metadata and retry policies for robust pipeline execution ---
 default_args = {
     "owner": "airflow",
     "retries": 1
 }
+
+### --- Task Definitions (Modular Python Callables) ---
 
 def task_load_csv():
     csv_path = os.getenv("CSV_PATH")
@@ -34,6 +37,9 @@ def task_train_model():
 def task_feature_importance():
     get_feature_importance("/opt/airflow/models/pipeline_rf.joblib")
 
+
+### --- DAG Configuration ---
+
 with DAG(
     "airflow_pipeline",
     default_args=default_args,
@@ -42,26 +48,31 @@ with DAG(
     catchup=False
 ) as dag:
 
+    # --- Step 1: Data Ingestion ---
     load_csv = PythonOperator(
         task_id="load_csv",
         python_callable=task_load_csv
     )
 
+    # --- Step 2: Transformation & Labeling ---
     run_etl = PythonOperator(
         task_id="run_etl",
         python_callable=task_run_etl
     )
 
+    # --- Step 3: Model Training ---
     train_model_ = PythonOperator(
         task_id="train_model",
         python_callable=task_train_model
     )
 
+    # --- Step 4: Model Interpretation ---
     feature_importance = PythonOperator(
         task_id="feature_importance",
         python_callable=task_feature_importance
     )
 
+    # --- Task Dependencies (Pipeline Lineage) ---
     load_csv >> run_etl >> train_model_ >> feature_importance
 
 
