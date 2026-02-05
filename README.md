@@ -45,5 +45,6 @@ To run this project locally, you can use either Docker (recommended) or a standa
 - Libraries: Scikit-learn, Pandas, NumPy, Matplotlib, TensorFlow (MLP)
 - Tools: Power BI, SQL (Data Extraction), Canva (Presentation)
 - Backend & Deployment: FastAPI, Pydantic, Docker, Uvicorn, Joblib
+- Workflow orchestration & automation: Apache Airflow
 
 For the full CRISP-DM methodology, see [CRISP-DM.md](CRISP-DM.md)
