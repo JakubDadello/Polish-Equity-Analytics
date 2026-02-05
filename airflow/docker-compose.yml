@@ -30,11 +30,11 @@ services:
       PROJECT_DB: ${PROJECT_DB}
 
     volumes:
-      - ./airflow/dags:/opt/airflow/dags 
-      - ./airflow/logs:/opt/airflow/logs 
-      - ./src:/opt/airflow/src 
-      - ./data:/opt/airflow/data 
-      - ./models:/opt/airflow/models
+      - ./dags:/opt/airflow/dags 
+      - ./logs:/opt/airflow/logs 
+      - ../src:/opt/airflow/src 
+      - ../data:/opt/airflow/data 
+      - ../models:/opt/airflow/models
     ports:
       - "8080:8080"
     command: webserver
@@ -54,11 +54,11 @@ services:
       PROJECT_DB: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
 
     volumes: 
-      - ./airflow/dags:/opt/airflow/dags 
-      - ./airflow/logs:/opt/airflow/logs 
-      - ./src:/opt/airflow/src 
-      - ./data:/opt/airflow/data 
-      - ./models:/opt/airflow/models
+      - ./dags:/opt/airflow/dags 
+      - ./logs:/opt/airflow/logs 
+      - ../src:/opt/airflow/src 
+      - ../data:/opt/airflow/data 
+      - ../models:/opt/airflow/models
     command: scheduler
 
   airflow-init:
@@ -72,11 +72,11 @@ services:
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
       AIRFLOW__CORE__FERNET_KEY: ${FERNET_KEY}
     volumes:
-      - ./airflow/dags:/opt/airflow/dags 
-      - ./airflow/logs:/opt/airflow/logs 
-      - ./src:/opt/airflow/src 
-      - ./data:/opt/airflow/data 
-      - ./models:/opt/airflow/models
+      - ./dags:/opt/airflow/dags 
+      - ./logs:/opt/airflow/logs 
+      - ../src:/opt/airflow/src 
+      - ../data:/opt/airflow/data 
+      - ../models:/opt/airflow/models
     command: >
       bash -c "
       airflow db init &&
