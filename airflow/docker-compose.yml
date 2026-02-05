@@ -4,9 +4,9 @@ services:
   postgres:
     image: postgres:16
     environment:
-      POSTGRES_USER: airflow
-      POSTGRES_PASSWORD: airflow
-      POSTGRES_DB: airflow
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
     volumes:
       - postgres_db:/var/lib/postgresql/data
     healthcheck:
@@ -22,12 +22,12 @@ services:
     environment:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
-      AIRFLOW__CORE__FERNET_KEY: "YOUR_FERNET_KEY"
+      AIRFLOW__CORE__FERNET_KEY: ${FERNET_KEY}
       AIRFLOW__WEBSERVER__SECRET_KEY: "YOUR_SECRET_KEY"
       AIRFLOW__CORE__LOAD_EXAMPLES: "False"
 
-      CSV_PATH: /opt/airflow/data/your_file.csv
-      PROJECT_DB: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      CSV_PATH: ${CSV_PATH}
+      PROJECT_DB: ${PROJECT_DB}
 
     volumes:
       - ./dags:/opt/airflow/dags
@@ -70,7 +70,7 @@ services:
     environment:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
-      AIRFLOW__CORE__FERNET_KEY: "YOUR_FERNET_KEY"
+      AIRFLOW__CORE__FERNET_KEY: ${FERNET_KEY}
     volumes:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
