@@ -45,7 +45,7 @@ services:
     environment:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
-      AIRFLOW__CORE__FERNET_KEY: HNVOFQWbPTFqsfr_enxCXCJC4LCS3Q7ECsWbGAjrF5k=
+      AIRFLOW__CORE__FERNET_KEY: ${FERNET_KEY}
       AIRFLOW__CORE__LOAD_EXAMPLES: "False"
 
       CSV_PATH: /opt/airflow/data/raw_data.csv
