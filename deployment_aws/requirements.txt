@@ -1,0 +1,6 @@
+# --- Libraries for Lambda ---
+numpy==2.0.0
+scikit-learn==1.6.1
+pandas==2.2.3
+joblib==1.4.2
+boto3
