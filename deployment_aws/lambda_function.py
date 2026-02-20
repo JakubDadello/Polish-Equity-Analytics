@@ -7,7 +7,7 @@ import joblib
 import os
 
 
-S3_BUCKET = "pqa-final-model"
+S3_BUCKET = "pqa-bucket"
 MODEL_KEY = "pipeline_rf.joblib"
 
 s3 = boto3.client("s3")
@@ -36,4 +36,5 @@ def lambda_handler(event, context):
     return {
         "input": data,
         "prediction": prediction.tolist()
+
     }
