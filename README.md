@@ -8,6 +8,8 @@ Built a complete data analysis and modeling pipeline, including data preprocessi
 
 Applied classification algorithms to identify patterns in financial data and support data-driven investment decision-making.
 
+Although the dataset comes from companies listed on the Warsaw Stock Exchange, the project demonstrates transferable data science and financial analysis skills. Financial indicators such as ROA, EBITDA, and leverage ratios are standardized worldwide, making the modeling approach applicable to global financial markets.
+
 ## How to Run
 
 To run this project locally, you can use either Docker (recommended) or a standard Python environment.
