@@ -45,10 +45,12 @@ To run this project locally, you can use either Docker (recommended) or a standa
 
 ## Tech Stack
 
-- Language: Python 3.11
+- Language: Python 3.10
 - Libraries: Scikit-learn, Pandas, NumPy, Matplotlib, TensorFlow (MLP)
-- Tools: Power BI, SQL (Data Extraction), Canva (Presentation)
-- Backend & Deployment: FastAPI, Pydantic, Docker, Uvicorn, Joblib
+- Tools: Power BI, PostgreSQL 
+- Backend & Deployment: FastAPI, Pydantic, Uvicorn
+- Conterization & Deployment: Docker
+- Cloud Technology: Amazon Web Service (AWS)
 - Workflow orchestration & automation: Apache Airflow
 
 For the full CRISP-DM methodology, see [CRISP-DM.md](CRISP-DM.md)
