@@ -2,9 +2,11 @@
 
 ## Project Description
 
-This project analyzes the financial data of 370 Polish listed companies (GPW), taking into account sector-specific characteristics, to support investment decision-making. 
+Developed a machine learning model to classify investment ratings of 370 publicly listed Polish companies based on financial indicators and sector-specific characteristics.
 
-The goal is to build a robust classification model that accurately predicts each company's investment rating (low, medium, or high) based on key financial indicators.
+Built a complete data analysis and modeling pipeline, including data preprocessing, feature engineering, and model training to predict investment categories (low, medium, high).
+
+Applied classification algorithms to identify patterns in financial data and support data-driven investment decision-making.
 
 ## How to Run
 
