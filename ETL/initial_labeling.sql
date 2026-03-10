@@ -37,7 +37,7 @@ scores AS (
      AND d.cumulation = s.cumulation
 )
 
---- Step 3: Assign investment_level based on score ---
+--- Step 3: Assign investment_rate based on score ---
 CREATE TABLE initial_labeling_data AS 
 SELECT 
     r.*,
